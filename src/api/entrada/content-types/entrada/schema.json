@@ -1,0 +1,33 @@
+{
+  "kind": "collectionType",
+  "collectionName": "entradas",
+  "info": {
+    "singularName": "entrada",
+    "pluralName": "entradas",
+    "displayName": "Entradas"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fecha_entrada": {
+      "type": "date",
+      "required": true
+    },
+    "hora_entrada": {
+      "type": "time",
+      "required": true
+    },
+    "sucursal": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::sucursal.sucursal"
+    },
+    "usuario": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    }
+  }
+}

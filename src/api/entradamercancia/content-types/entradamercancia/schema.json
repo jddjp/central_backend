@@ -1,0 +1,50 @@
+{
+  "kind": "collectionType",
+  "collectionName": "entradamercancias",
+  "info": {
+    "singularName": "entradamercancia",
+    "pluralName": "entradamercancias",
+    "displayName": "Entrada Mercancías"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fecha_entrada": {
+      "type": "date",
+      "required": true
+    },
+    "hora_entrada": {
+      "type": "time",
+      "required": true
+    },
+    "lote": {
+      "type": "string",
+      "required": true
+    },
+    "cantidad": {
+      "type": "decimal"
+    },
+    "receptor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "proveedor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::proveedor.proveedor"
+    },
+    "articulo": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::articulo.articulo"
+    },
+    "sucursal": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::sucursal.sucursal"
+    }
+  }
+}

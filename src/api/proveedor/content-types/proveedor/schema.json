@@ -1,0 +1,49 @@
+{
+  "kind": "collectionType",
+  "collectionName": "proveedores",
+  "info": {
+    "singularName": "proveedor",
+    "pluralName": "proveedores",
+    "displayName": "Proveedores"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "apellido_paterno": {
+      "type": "string",
+      "required": true
+    },
+    "apellido_materno": {
+      "type": "string",
+      "required": true
+    },
+    "telefono": {
+      "type": "string",
+      "required": true
+    },
+    "correo": {
+      "type": "email",
+      "required": true
+    },
+    "RFC": {
+      "type": "string"
+    },
+    "calle": {
+      "type": "string",
+      "required": false
+    },
+    "colonia": {
+      "type": "string"
+    },
+    "codigo_postal": {
+      "type": "integer",
+      "required": false
+    }
+  }
+}

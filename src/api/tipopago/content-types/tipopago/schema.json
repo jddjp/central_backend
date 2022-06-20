@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "tipopagos",
+  "info": {
+    "singularName": "tipopago",
+    "pluralName": "tipopagos",
+    "displayName": "Tipo pagos"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "descripcion": {
+      "type": "string",
+      "required": true
+    },
+    "comision": {
+      "type": "decimal"
+    }
+  }
+}

@@ -1,0 +1,31 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pedidopagos",
+  "info": {
+    "singularName": "pedidopago",
+    "pluralName": "pedidopagos",
+    "displayName": "Pedido Pagos"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cantidad": {
+      "type": "decimal",
+      "required": true
+    },
+    "pedido": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::pedido.pedido"
+    },
+    "tipo_pago": {
+      "type": "enumeration",
+      "enum": [
+        "efectivo"
+      ],
+      "required": true
+    }
+  }
+}

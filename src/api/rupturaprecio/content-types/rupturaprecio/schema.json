@@ -1,0 +1,42 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rupturaprecios",
+  "info": {
+    "singularName": "rupturaprecio",
+    "pluralName": "rupturaprecios",
+    "displayName": "Ruptura precios",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "precio": {
+      "type": "decimal",
+      "required": true
+    },
+    "descripcion_descuento": {
+      "type": "string",
+      "required": true
+    },
+    "peso_inferior": {
+      "type": "decimal",
+      "required": true
+    },
+    "peso_superior": {
+      "type": "decimal",
+      "required": true
+    },
+    "unidad_de_medida": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::unidadmedida.unidadmedida"
+    },
+    "articulo": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::articulo.articulo"
+    }
+  }
+}

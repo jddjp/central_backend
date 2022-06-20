@@ -1,0 +1,52 @@
+{
+  "kind": "collectionType",
+  "collectionName": "items",
+  "info": {
+    "singularName": "item",
+    "pluralName": "items",
+    "displayName": "Items"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cantidad": {
+      "type": "decimal",
+      "required": true
+    },
+    "unidad_de_medida": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::unidadmedida.unidadmedida",
+      "private": true
+    },
+    "pesado": {
+      "type": "decimal",
+      "required": true
+    },
+    "cantidad_real": {
+      "type": "decimal",
+      "required": true
+    },
+    "precio_venta": {
+      "type": "decimal",
+      "required": true
+    },
+    "supervisor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "ruptura_precio": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::rupturaprecio.rupturaprecio"
+    },
+    "pedido": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::pedido.pedido"
+    }
+  }
+}

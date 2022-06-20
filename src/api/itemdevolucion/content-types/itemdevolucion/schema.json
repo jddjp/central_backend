@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "itemdevoluciones",
+  "info": {
+    "singularName": "itemdevolucion",
+    "pluralName": "itemdevoluciones",
+    "displayName": "Item Devoluciones",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "precio_cambiado": {
+      "type": "decimal",
+      "required": true
+    },
+    "devolucion": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::devolucion.devolucion"
+    },
+    "item": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::item.item"
+    }
+  }
+}

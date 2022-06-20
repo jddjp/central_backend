@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "creditoclientes",
+  "info": {
+    "singularName": "creditocliente",
+    "pluralName": "creditoclientes",
+    "displayName": "Crédito clientes"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "abono": {
+      "type": "decimal",
+      "required": true
+    },
+    "fecha_abono": {
+      "type": "date",
+      "required": true
+    },
+    "hora_abono": {
+      "type": "time",
+      "required": true
+    },
+    "pedido": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::pedido.pedido"
+    }
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "kind": "collectionType",
+  "collectionName": "facturas",
+  "info": {
+    "singularName": "factura",
+    "pluralName": "facturas",
+    "displayName": "Facturas"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "uso_cfdi": {
+      "type": "string",
+      "required": true
+    },
+    "pedido": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::pedido.pedido",
+      "inversedBy": "factura"
+    },
+    "cliente": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::cliente.cliente"
+    }
+  }
+}

@@ -1,0 +1,75 @@
+{
+  "kind": "collectionType",
+  "collectionName": "articulos",
+  "info": {
+    "singularName": "articulo",
+    "pluralName": "articulos",
+    "displayName": "Artículos"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    },
+    "estado": {
+      "type": "enumeration",
+      "enum": [
+        "bueno"
+      ],
+      "required": true
+    },
+    "descripcion": {
+      "type": "string"
+    },
+    "categoria": {
+      "type": "string"
+    },
+    "marca": {
+      "type": "string"
+    },
+    "precio_lista": {
+      "type": "decimal",
+      "required": true
+    },
+    "unidad_de_medida": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::unidadmedida.unidadmedida"
+    },
+    "codigo_barras": {
+      "type": "string"
+    },
+    "codigo_qr": {
+      "type": "string"
+    },
+    "inventario_fiscal": {
+      "type": "integer",
+      "default": 0
+    },
+    "inventario_fisico": {
+      "type": "integer",
+      "default": 0
+    },
+    "foto": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "contador": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "proveedor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::proveedor.proveedor"
+    }
+  }
+}

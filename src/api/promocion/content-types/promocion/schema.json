@@ -1,0 +1,48 @@
+{
+  "kind": "collectionType",
+  "collectionName": "promociones",
+  "info": {
+    "singularName": "promocion",
+    "pluralName": "promociones",
+    "displayName": "Promociones"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "descripcion": {
+      "type": "string",
+      "required": true
+    },
+    "fecha_inicio": {
+      "type": "date",
+      "required": true
+    },
+    "fecha_fin": {
+      "type": "date",
+      "required": true
+    },
+    "procedimiento_aplicar": {
+      "type": "string",
+      "required": true
+    },
+    "estado": {
+      "type": "enumeration",
+      "enum": [
+        "pendiente"
+      ],
+      "required": true
+    },
+    "supervisor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "articulo": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::articulo.articulo"
+    }
+  }
+}

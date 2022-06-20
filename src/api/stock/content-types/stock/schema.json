@@ -1,0 +1,34 @@
+{
+  "kind": "collectionType",
+  "collectionName": "stocks",
+  "info": {
+    "singularName": "stock",
+    "pluralName": "stocks",
+    "displayName": "Stocks"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cantidad": {
+      "type": "decimal",
+      "required": true
+    },
+    "unidad_de_medida": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::unidadmedida.unidadmedida"
+    },
+    "sucursal": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::sucursal.sucursal"
+    },
+    "articulo": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::articulo.articulo"
+    }
+  }
+}

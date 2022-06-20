@@ -1,0 +1,39 @@
+{
+  "kind": "collectionType",
+  "collectionName": "pedidodespachadores",
+  "info": {
+    "singularName": "pedidodespachador",
+    "pluralName": "pedidodespachadores",
+    "displayName": "Pedido Despachadores"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cantidad": {
+      "type": "decimal",
+      "required": true
+    },
+    "despachador": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "supervisor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "unidad_de_medida": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::unidadmedida.unidadmedida"
+    },
+    "pedido": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::pedido.pedido"
+    }
+  }
+}

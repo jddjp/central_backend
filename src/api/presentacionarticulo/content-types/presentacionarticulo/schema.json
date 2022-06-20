@@ -1,0 +1,29 @@
+{
+  "kind": "collectionType",
+  "collectionName": "presentacionarticulos",
+  "info": {
+    "singularName": "presentacionarticulo",
+    "pluralName": "presentacionarticulos",
+    "displayName": "Presentación Artículos"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "peso": {
+      "type": "decimal",
+      "required": true
+    },
+    "articulo": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::articulo.articulo"
+    },
+    "unidad_de_medida": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::unidadmedida.unidadmedida"
+    }
+  }
+}

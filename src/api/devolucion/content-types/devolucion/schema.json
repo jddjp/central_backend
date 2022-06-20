@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "devoluciones",
+  "info": {
+    "singularName": "devolucion",
+    "pluralName": "devoluciones",
+    "displayName": "Devoluciones"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fecha_devolucion": {
+      "type": "date",
+      "required": true
+    },
+    "hora_devolucion": {
+      "type": "time",
+      "required": true
+    },
+    "motivo": {
+      "type": "string",
+      "required": true
+    },
+    "supervisor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    }
+  }
+}

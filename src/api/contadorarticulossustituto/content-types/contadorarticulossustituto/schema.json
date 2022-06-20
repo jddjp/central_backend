@@ -1,0 +1,28 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contadorarticulossustitutos",
+  "info": {
+    "singularName": "contadorarticulossustituto",
+    "pluralName": "contadorarticulossustitutos",
+    "displayName": "Contador Artículos Sustitutos"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fecha": {
+      "type": "date",
+      "required": true
+    },
+    "hora": {
+      "type": "time",
+      "required": true
+    },
+    "contador": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    }
+  }
+}

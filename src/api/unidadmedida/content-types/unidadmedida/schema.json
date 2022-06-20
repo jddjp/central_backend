@@ -1,0 +1,19 @@
+{
+  "kind": "collectionType",
+  "collectionName": "unidadmedidas",
+  "info": {
+    "singularName": "unidadmedida",
+    "pluralName": "unidadmedidas",
+    "displayName": "Unidad de medidas"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "nombre": {
+      "type": "string",
+      "required": true
+    }
+  }
+}

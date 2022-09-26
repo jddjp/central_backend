@@ -4,16 +4,26 @@
   "info": {
     "singularName": "item",
     "pluralName": "items",
-    "displayName": "Items"
+    "displayName": "Items",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
   },
-  "pluginOptions": {},
+  "pluginOptions": {
+    "i18n": {
+      "localized": true
+    }
+  },
   "attributes": {
     "cantidad": {
       "type": "decimal",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "unidad_de_medida": {
       "type": "relation",
@@ -23,15 +33,30 @@
     },
     "pesado": {
       "type": "decimal",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "cantidad_real": {
       "type": "decimal",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "precio_venta": {
       "type": "decimal",
-      "required": true
+      "required": true,
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
     },
     "supervisor": {
       "type": "relation",
@@ -47,6 +72,11 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::pedido.pedido"
+    },
+    "articulos": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::articulo.articulo"
     }
   }
 }

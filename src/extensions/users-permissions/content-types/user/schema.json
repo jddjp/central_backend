@@ -108,13 +108,26 @@
       "type": "date"
     },
     "foto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "roleCons": {
+      "type": "enumeration",
+      "enum": [
+        "Supervisor",
+        "Cajero",
+        "Vendedor",
+        "Despachador",
+        "Librador",
+        "Receptor",
+        "Contador"
+      ]
     }
   }
 }

@@ -922,6 +922,18 @@
                                                           }
                                                         }
                                                       },
+                                                      "roleCons": {
+                                                        "type": "string",
+                                                        "enum": [
+                                                          "Supervisor",
+                                                          "Cajero",
+                                                          "Vendedor",
+                                                          "Despachador",
+                                                          "Librador",
+                                                          "Receptor",
+                                                          "Contador"
+                                                        ]
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -2654,6 +2666,18 @@
                                                         }
                                                       }
                                                     },
+                                                    "roleCons": {
+                                                      "type": "string",
+                                                      "enum": [
+                                                        "Supervisor",
+                                                        "Cajero",
+                                                        "Vendedor",
+                                                        "Despachador",
+                                                        "Librador",
+                                                        "Receptor",
+                                                        "Contador"
+                                                      ]
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -4304,6 +4328,18 @@
                                                         }
                                                       }
                                                     },
+                                                    "roleCons": {
+                                                      "type": "string",
+                                                      "enum": [
+                                                        "Supervisor",
+                                                        "Cajero",
+                                                        "Vendedor",
+                                                        "Despachador",
+                                                        "Librador",
+                                                        "Receptor",
+                                                        "Contador"
+                                                      ]
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -5944,6 +5980,18 @@
                                                           }
                                                         }
                                                       }
+                                                    },
+                                                    "roleCons": {
+                                                      "type": "string",
+                                                      "enum": [
+                                                        "Supervisor",
+                                                        "Cajero",
+                                                        "Vendedor",
+                                                        "Despachador",
+                                                        "Librador",
+                                                        "Receptor",
+                                                        "Contador"
+                                                      ]
                                                     },
                                                     "createdAt": {
                                                       "type": "string",

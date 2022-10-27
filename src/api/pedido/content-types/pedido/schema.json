@@ -23,7 +23,8 @@
     "estatus": {
       "type": "enumeration",
       "enum": [
-        "pendiente"
+        "pendiente",
+        "entregado"
       ],
       "required": true
     },

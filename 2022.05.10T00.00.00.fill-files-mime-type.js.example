@@ -1,3 +1,6 @@
+/* Este archivo se necesita cargar en ./database/migrations
+en caso de ser neceario*/
+
 'use strict'
 
 // path: database/migrations

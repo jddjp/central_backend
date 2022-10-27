@@ -1835,7 +1835,8 @@
                                                       "estatus": {
                                                         "type": "string",
                                                         "enum": [
-                                                          "pendiente"
+                                                          "pendiente",
+                                                          "entregado"
                                                         ]
                                                       },
                                                       "comentario": {
@@ -4486,7 +4487,8 @@
                                                     "estatus": {
                                                       "type": "string",
                                                       "enum": [
-                                                        "pendiente"
+                                                        "pendiente",
+                                                        "entregado"
                                                       ]
                                                     },
                                                     "comentario": {
@@ -7056,7 +7058,8 @@
                                                     "estatus": {
                                                       "type": "string",
                                                       "enum": [
-                                                        "pendiente"
+                                                        "pendiente",
+                                                        "entregado"
                                                       ]
                                                     },
                                                     "comentario": {
@@ -9616,7 +9619,8 @@
                                                     "estatus": {
                                                       "type": "string",
                                                       "enum": [
-                                                        "pendiente"
+                                                        "pendiente",
+                                                        "entregado"
                                                       ]
                                                     },
                                                     "comentario": {

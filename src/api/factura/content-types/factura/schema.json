@@ -19,7 +19,7 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::pedido.pedido",
-      "inversedBy": "factura"
+      "mappedBy": "factura"
     },
     "cliente": {
       "type": "relation",

@@ -71,6 +71,11 @@
       "relation": "oneToOne",
       "target": "api::factura.factura",
       "inversedBy": "pedido"
+    },
+    "repartidor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "admin::user"
     }
   }
 }

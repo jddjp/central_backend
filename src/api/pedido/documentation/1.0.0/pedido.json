@@ -1445,22 +1445,8 @@
                                                           }
                                                         }
                                                       },
-                                                      "repartidor": {
-                                                        "type": "object",
-                                                        "properties": {
-                                                          "data": {
-                                                            "type": "object",
-                                                            "properties": {
-                                                              "id": {
-                                                                "type": "string"
-                                                              },
-                                                              "attributes": {
-                                                                "type": "object",
-                                                                "properties": {}
-                                                              }
-                                                            }
-                                                          }
-                                                        }
+                                                      "Despachador": {
+                                                        "type": "string"
                                                       },
                                                       "createdAt": {
                                                         "type": "string",
@@ -1575,22 +1561,8 @@
                                   }
                                 }
                               },
-                              "repartidor": {
-                                "type": "object",
-                                "properties": {
-                                  "data": {
-                                    "type": "object",
-                                    "properties": {
-                                      "id": {
-                                        "type": "string"
-                                      },
-                                      "attributes": {
-                                        "type": "object",
-                                        "properties": {}
-                                      }
-                                    }
-                                  }
-                                }
+                              "Despachador": {
+                                "type": "string"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -3342,22 +3314,8 @@
                                                         }
                                                       }
                                                     },
-                                                    "repartidor": {
-                                                      "type": "object",
-                                                      "properties": {
-                                                        "data": {
-                                                          "type": "object",
-                                                          "properties": {
-                                                            "id": {
-                                                              "type": "string"
-                                                            },
-                                                            "attributes": {
-                                                              "type": "object",
-                                                              "properties": {}
-                                                            }
-                                                          }
-                                                        }
-                                                      }
+                                                    "Despachador": {
+                                                      "type": "string"
                                                     },
                                                     "createdAt": {
                                                       "type": "string",
@@ -3472,22 +3430,8 @@
                                 }
                               }
                             },
-                            "repartidor": {
-                              "type": "object",
-                              "properties": {
-                                "data": {
-                                  "type": "object",
-                                  "properties": {
-                                    "id": {
-                                      "type": "string"
-                                    },
-                                    "attributes": {
-                                      "type": "object",
-                                      "properties": {}
-                                    }
-                                  }
-                                }
-                              }
+                            "Despachador": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -5170,22 +5114,8 @@
                                                         }
                                                       }
                                                     },
-                                                    "repartidor": {
-                                                      "type": "object",
-                                                      "properties": {
-                                                        "data": {
-                                                          "type": "object",
-                                                          "properties": {
-                                                            "id": {
-                                                              "type": "string"
-                                                            },
-                                                            "attributes": {
-                                                              "type": "object",
-                                                              "properties": {}
-                                                            }
-                                                          }
-                                                        }
-                                                      }
+                                                    "Despachador": {
+                                                      "type": "string"
                                                     },
                                                     "createdAt": {
                                                       "type": "string",
@@ -5300,22 +5230,8 @@
                                 }
                               }
                             },
-                            "repartidor": {
-                              "type": "object",
-                              "properties": {
-                                "data": {
-                                  "type": "object",
-                                  "properties": {
-                                    "id": {
-                                      "type": "string"
-                                    },
-                                    "attributes": {
-                                      "type": "object",
-                                      "properties": {}
-                                    }
-                                  }
-                                }
-                              }
+                            "Despachador": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -6976,22 +6892,8 @@
                                                         }
                                                       }
                                                     },
-                                                    "repartidor": {
-                                                      "type": "object",
-                                                      "properties": {
-                                                        "data": {
-                                                          "type": "object",
-                                                          "properties": {
-                                                            "id": {
-                                                              "type": "string"
-                                                            },
-                                                            "attributes": {
-                                                              "type": "object",
-                                                              "properties": {}
-                                                            }
-                                                          }
-                                                        }
-                                                      }
+                                                    "Despachador": {
+                                                      "type": "string"
                                                     },
                                                     "createdAt": {
                                                       "type": "string",
@@ -7106,22 +7008,8 @@
                                 }
                               }
                             },
-                            "repartidor": {
-                              "type": "object",
-                              "properties": {
-                                "data": {
-                                  "type": "object",
-                                  "properties": {
-                                    "id": {
-                                      "type": "string"
-                                    },
-                                    "attributes": {
-                                      "type": "object",
-                                      "properties": {}
-                                    }
-                                  }
-                                }
-                              }
+                            "Despachador": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -7454,16 +7342,8 @@
                         ],
                         "example": "string or id"
                       },
-                      "repartidor": {
-                        "oneOf": [
-                          {
-                            "type": "integer"
-                          },
-                          {
-                            "type": "string"
-                          }
-                        ],
-                        "example": "string or id"
+                      "Despachador": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",

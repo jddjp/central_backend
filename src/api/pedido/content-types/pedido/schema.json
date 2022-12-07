@@ -71,6 +71,9 @@
       "relation": "oneToOne",
       "target": "api::factura.factura",
       "inversedBy": "pedido"
+    },
+    "Despachador": {
+      "type": "string"
     }
   }
 }

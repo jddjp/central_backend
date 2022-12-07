@@ -1445,6 +1445,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "Despachador": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -1557,6 +1560,9 @@
                                     }
                                   }
                                 }
+                              },
+                              "Despachador": {
+                                "type": "string"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -3308,6 +3314,9 @@
                                                         }
                                                       }
                                                     },
+                                                    "Despachador": {
+                                                      "type": "string"
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -3420,6 +3429,9 @@
                                   }
                                 }
                               }
+                            },
+                            "Despachador": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -5102,6 +5114,9 @@
                                                         }
                                                       }
                                                     },
+                                                    "Despachador": {
+                                                      "type": "string"
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -5214,6 +5229,9 @@
                                   }
                                 }
                               }
+                            },
+                            "Despachador": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -6874,6 +6892,9 @@
                                                         }
                                                       }
                                                     },
+                                                    "Despachador": {
+                                                      "type": "string"
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -6986,6 +7007,9 @@
                                   }
                                 }
                               }
+                            },
+                            "Despachador": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -7317,6 +7341,9 @@
                           }
                         ],
                         "example": "string or id"
+                      },
+                      "Despachador": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",

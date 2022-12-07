@@ -70,6 +70,12 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::proveedor.proveedor"
+    },
+    "pedidos": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::pedido.pedido",
+      "inversedBy": "articulos"
     }
   }
 }

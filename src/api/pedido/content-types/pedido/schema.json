@@ -74,6 +74,12 @@
     },
     "Despachador": {
       "type": "string"
+    },
+    "articulos": {
+      "type": "relation",
+      "relation": "manyToMany",
+      "target": "api::articulo.articulo",
+      "inversedBy": "pedidos"
     }
   }
 }

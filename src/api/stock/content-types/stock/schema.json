@@ -4,7 +4,8 @@
   "info": {
     "singularName": "stock",
     "pluralName": "stocks",
-    "displayName": "Stocks"
+    "displayName": "Stocks",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -29,6 +30,15 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::articulo.articulo"
+    },
+    "imagen": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": true
     }
   }
 }

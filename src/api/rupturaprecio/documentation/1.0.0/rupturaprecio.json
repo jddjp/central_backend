@@ -363,12 +363,6 @@
                                           "nombre": {
                                             "type": "string"
                                           },
-                                          "estado": {
-                                            "type": "string",
-                                            "enum": [
-                                              "bueno"
-                                            ]
-                                          },
                                           "descripcion": {
                                             "type": "string"
                                           },
@@ -1571,13 +1565,6 @@
                                                           "format": "time",
                                                           "example": "12:54.000"
                                                         },
-                                                        "estatus": {
-                                                          "type": "string",
-                                                          "enum": [
-                                                            "pendiente",
-                                                            "entregado"
-                                                          ]
-                                                        },
                                                         "comentario": {
                                                           "type": "string"
                                                         },
@@ -2013,6 +2000,9 @@
                                                             }
                                                           }
                                                         },
+                                                        "estatus": {
+                                                          "type": "boolean"
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
@@ -2061,6 +2051,9 @@
                                                 }
                                               }
                                             }
+                                          },
+                                          "estado": {
+                                            "type": "boolean"
                                           },
                                           "createdAt": {
                                             "type": "string",
@@ -2778,12 +2771,6 @@
                                         "nombre": {
                                           "type": "string"
                                         },
-                                        "estado": {
-                                          "type": "string",
-                                          "enum": [
-                                            "bueno"
-                                          ]
-                                        },
                                         "descripcion": {
                                           "type": "string"
                                         },
@@ -3986,13 +3973,6 @@
                                                         "format": "time",
                                                         "example": "12:54.000"
                                                       },
-                                                      "estatus": {
-                                                        "type": "string",
-                                                        "enum": [
-                                                          "pendiente",
-                                                          "entregado"
-                                                        ]
-                                                      },
                                                       "comentario": {
                                                         "type": "string"
                                                       },
@@ -4428,6 +4408,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "estatus": {
+                                                        "type": "boolean"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -4476,6 +4459,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "estado": {
+                                          "type": "boolean"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -5123,12 +5109,6 @@
                                         "nombre": {
                                           "type": "string"
                                         },
-                                        "estado": {
-                                          "type": "string",
-                                          "enum": [
-                                            "bueno"
-                                          ]
-                                        },
                                         "descripcion": {
                                           "type": "string"
                                         },
@@ -6331,13 +6311,6 @@
                                                         "format": "time",
                                                         "example": "12:54.000"
                                                       },
-                                                      "estatus": {
-                                                        "type": "string",
-                                                        "enum": [
-                                                          "pendiente",
-                                                          "entregado"
-                                                        ]
-                                                      },
                                                       "comentario": {
                                                         "type": "string"
                                                       },
@@ -6773,6 +6746,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "estatus": {
+                                                        "type": "boolean"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -6821,6 +6797,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "estado": {
+                                          "type": "boolean"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -7447,12 +7426,6 @@
                                         "nombre": {
                                           "type": "string"
                                         },
-                                        "estado": {
-                                          "type": "string",
-                                          "enum": [
-                                            "bueno"
-                                          ]
-                                        },
                                         "descripcion": {
                                           "type": "string"
                                         },
@@ -8655,13 +8628,6 @@
                                                         "format": "time",
                                                         "example": "12:54.000"
                                                       },
-                                                      "estatus": {
-                                                        "type": "string",
-                                                        "enum": [
-                                                          "pendiente",
-                                                          "entregado"
-                                                        ]
-                                                      },
                                                       "comentario": {
                                                         "type": "string"
                                                       },
@@ -9097,6 +9063,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "estatus": {
+                                                        "type": "boolean"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -9145,6 +9114,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "estado": {
+                                          "type": "boolean"
                                         },
                                         "createdAt": {
                                           "type": "string",

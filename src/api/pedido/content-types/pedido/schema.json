@@ -20,14 +20,6 @@
       "type": "time",
       "required": true
     },
-    "estatus": {
-      "type": "enumeration",
-      "enum": [
-        "pendiente",
-        "entregado"
-      ],
-      "required": true
-    },
     "comentario": {
       "type": "string"
     },
@@ -79,7 +71,10 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::articulo.articulo",
-      "inversedBy": "pedidos"
+      "mappedBy": "pedidos"
+    },
+    "estatus": {
+      "type": "boolean"
     }
   }
 }

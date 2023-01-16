@@ -4,7 +4,8 @@
   "info": {
     "singularName": "articulo",
     "pluralName": "articulos",
-    "displayName": "Artículos"
+    "displayName": "Artículos",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -13,13 +14,6 @@
   "attributes": {
     "nombre": {
       "type": "string",
-      "required": true
-    },
-    "estado": {
-      "type": "enumeration",
-      "enum": [
-        "bueno"
-      ],
       "required": true
     },
     "descripcion": {
@@ -55,11 +49,12 @@
       "default": 0
     },
     "foto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "contador": {
       "type": "relation",
@@ -76,6 +71,9 @@
       "relation": "manyToMany",
       "target": "api::pedido.pedido",
       "inversedBy": "articulos"
+    },
+    "estado": {
+      "type": "boolean"
     }
   }
 }

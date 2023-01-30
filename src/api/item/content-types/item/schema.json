@@ -22,7 +22,7 @@
       "private": true
     },
     "pesado": {
-      "type": "decimal",
+      "type": "boolean",
       "required": true
     },
     "cantidad_real": {

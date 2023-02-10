@@ -338,8 +338,7 @@
                                 }
                               },
                               "pesado": {
-                                "type": "number",
-                                "format": "float"
+                                "type": "boolean"
                               },
                               "cantidad_real": {
                                 "type": "number",
@@ -2880,8 +2879,7 @@
                               }
                             },
                             "pesado": {
-                              "type": "number",
-                              "format": "float"
+                              "type": "boolean"
                             },
                             "cantidad_real": {
                               "type": "number",
@@ -4997,8 +4995,7 @@
                         "format": "float"
                       },
                       "pesado": {
-                        "type": "number",
-                        "format": "float"
+                        "type": "boolean"
                       },
                       "cantidad_real": {
                         "type": "number",
@@ -5353,8 +5350,7 @@
                               }
                             },
                             "pesado": {
-                              "type": "number",
-                              "format": "float"
+                              "type": "boolean"
                             },
                             "cantidad_real": {
                               "type": "number",
@@ -7804,8 +7800,7 @@
                               }
                             },
                             "pesado": {
-                              "type": "number",
-                              "format": "float"
+                              "type": "boolean"
                             },
                             "cantidad_real": {
                               "type": "number",
@@ -9943,8 +9938,7 @@
                         "example": "string or id"
                       },
                       "pesado": {
-                        "type": "number",
-                        "format": "float"
+                        "type": "boolean"
                       },
                       "cantidad_real": {
                         "type": "number",

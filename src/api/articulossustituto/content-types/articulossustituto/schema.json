@@ -4,7 +4,8 @@
   "info": {
     "singularName": "articulossustituto",
     "pluralName": "articulossustitutos",
-    "displayName": "Artículos Sustitutos"
+    "displayName": "Artículos Sustitutos",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -14,7 +15,8 @@
     "articulo": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::articulo.articulo"
+      "target": "api::articulo.articulo",
+      "inversedBy": "articulos_sustituto"
     },
     "contador_folio": {
       "type": "relation",

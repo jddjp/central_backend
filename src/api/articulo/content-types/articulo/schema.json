@@ -76,6 +76,12 @@
       "relation": "manyToMany",
       "target": "api::pedido.pedido",
       "inversedBy": "articulos"
+    },
+    "articulos_sustituto": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::articulossustituto.articulossustituto",
+      "inversedBy": "articulo"
     }
   }
 }

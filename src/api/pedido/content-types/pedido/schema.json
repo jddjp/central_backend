@@ -80,6 +80,12 @@
       "relation": "manyToMany",
       "target": "api::articulo.articulo",
       "inversedBy": "pedidos"
+    },
+    "item": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::item.item",
+      "inversedBy": "pedidos"
     }
   }
 }

@@ -4,7 +4,8 @@
   "info": {
     "singularName": "item",
     "pluralName": "items",
-    "displayName": "Items"
+    "displayName": "Items",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -43,10 +44,11 @@
       "relation": "oneToOne",
       "target": "api::rupturaprecio.rupturaprecio"
     },
-    "pedido": {
+    "pedidos": {
       "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::pedido.pedido"
+      "relation": "oneToMany",
+      "target": "api::pedido.pedido",
+      "mappedBy": "item"
     }
   }
 }

@@ -61,6 +61,10 @@
       "type": "media",
       "multiple": false
     },
+    "fresh": {
+      "type": "boolean",
+      "default": true
+    },
     "contador": {
       "type": "relation",
       "relation": "oneToOne",

@@ -79,7 +79,7 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::pedido.pedido",
-      "inversedBy": "articulos"
+      "mappedBy": "articulos"
     },
     "articulos_sustituto": {
       "type": "relation",

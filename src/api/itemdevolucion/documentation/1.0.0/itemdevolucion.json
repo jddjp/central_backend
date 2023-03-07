@@ -2182,18 +2182,21 @@
                                                                                     }
                                                                                   }
                                                                                 },
-                                                                                "item": {
+                                                                                "items": {
                                                                                   "type": "object",
                                                                                   "properties": {
                                                                                     "data": {
-                                                                                      "type": "object",
-                                                                                      "properties": {
-                                                                                        "id": {
-                                                                                          "type": "string"
-                                                                                        },
-                                                                                        "attributes": {
-                                                                                          "type": "object",
-                                                                                          "properties": {}
+                                                                                      "type": "array",
+                                                                                      "items": {
+                                                                                        "type": "object",
+                                                                                        "properties": {
+                                                                                          "id": {
+                                                                                            "type": "string"
+                                                                                          },
+                                                                                          "attributes": {
+                                                                                            "type": "object",
+                                                                                            "properties": {}
+                                                                                          }
                                                                                         }
                                                                                       }
                                                                                     }
@@ -2507,25 +2510,25 @@
                                               }
                                             }
                                           },
-                                          "pedidos": {
+                                          "pedido": {
                                             "type": "object",
                                             "properties": {
                                               "data": {
-                                                "type": "array",
-                                                "items": {
-                                                  "type": "object",
-                                                  "properties": {
-                                                    "id": {
-                                                      "type": "string"
-                                                    },
-                                                    "attributes": {
-                                                      "type": "object",
-                                                      "properties": {}
-                                                    }
+                                                "type": "object",
+                                                "properties": {
+                                                  "id": {
+                                                    "type": "string"
+                                                  },
+                                                  "attributes": {
+                                                    "type": "object",
+                                                    "properties": {}
                                                   }
                                                 }
                                               }
                                             }
+                                          },
+                                          "nombre_articulo": {
+                                            "type": "string"
                                           },
                                           "createdAt": {
                                             "type": "string",
@@ -5062,18 +5065,21 @@
                                                                                   }
                                                                                 }
                                                                               },
-                                                                              "item": {
+                                                                              "items": {
                                                                                 "type": "object",
                                                                                 "properties": {
                                                                                   "data": {
-                                                                                    "type": "object",
-                                                                                    "properties": {
-                                                                                      "id": {
-                                                                                        "type": "string"
-                                                                                      },
-                                                                                      "attributes": {
-                                                                                        "type": "object",
-                                                                                        "properties": {}
+                                                                                    "type": "array",
+                                                                                    "items": {
+                                                                                      "type": "object",
+                                                                                      "properties": {
+                                                                                        "id": {
+                                                                                          "type": "string"
+                                                                                        },
+                                                                                        "attributes": {
+                                                                                          "type": "object",
+                                                                                          "properties": {}
+                                                                                        }
                                                                                       }
                                                                                     }
                                                                                   }
@@ -5387,25 +5393,25 @@
                                             }
                                           }
                                         },
-                                        "pedidos": {
+                                        "pedido": {
                                           "type": "object",
                                           "properties": {
                                             "data": {
-                                              "type": "array",
-                                              "items": {
-                                                "type": "object",
-                                                "properties": {
-                                                  "id": {
-                                                    "type": "string"
-                                                  },
-                                                  "attributes": {
-                                                    "type": "object",
-                                                    "properties": {}
-                                                  }
+                                              "type": "object",
+                                              "properties": {
+                                                "id": {
+                                                  "type": "string"
+                                                },
+                                                "attributes": {
+                                                  "type": "object",
+                                                  "properties": {}
                                                 }
                                               }
                                             }
                                           }
+                                        },
+                                        "nombre_articulo": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -7861,18 +7867,21 @@
                                                                                   }
                                                                                 }
                                                                               },
-                                                                              "item": {
+                                                                              "items": {
                                                                                 "type": "object",
                                                                                 "properties": {
                                                                                   "data": {
-                                                                                    "type": "object",
-                                                                                    "properties": {
-                                                                                      "id": {
-                                                                                        "type": "string"
-                                                                                      },
-                                                                                      "attributes": {
-                                                                                        "type": "object",
-                                                                                        "properties": {}
+                                                                                    "type": "array",
+                                                                                    "items": {
+                                                                                      "type": "object",
+                                                                                      "properties": {
+                                                                                        "id": {
+                                                                                          "type": "string"
+                                                                                        },
+                                                                                        "attributes": {
+                                                                                          "type": "object",
+                                                                                          "properties": {}
+                                                                                        }
                                                                                       }
                                                                                     }
                                                                                   }
@@ -8186,25 +8195,25 @@
                                             }
                                           }
                                         },
-                                        "pedidos": {
+                                        "pedido": {
                                           "type": "object",
                                           "properties": {
                                             "data": {
-                                              "type": "array",
-                                              "items": {
-                                                "type": "object",
-                                                "properties": {
-                                                  "id": {
-                                                    "type": "string"
-                                                  },
-                                                  "attributes": {
-                                                    "type": "object",
-                                                    "properties": {}
-                                                  }
+                                              "type": "object",
+                                              "properties": {
+                                                "id": {
+                                                  "type": "string"
+                                                },
+                                                "attributes": {
+                                                  "type": "object",
+                                                  "properties": {}
                                                 }
                                               }
                                             }
                                           }
+                                        },
+                                        "nombre_articulo": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",
@@ -10650,18 +10659,21 @@
                                                                                   }
                                                                                 }
                                                                               },
-                                                                              "item": {
+                                                                              "items": {
                                                                                 "type": "object",
                                                                                 "properties": {
                                                                                   "data": {
-                                                                                    "type": "object",
-                                                                                    "properties": {
-                                                                                      "id": {
-                                                                                        "type": "string"
-                                                                                      },
-                                                                                      "attributes": {
-                                                                                        "type": "object",
-                                                                                        "properties": {}
+                                                                                    "type": "array",
+                                                                                    "items": {
+                                                                                      "type": "object",
+                                                                                      "properties": {
+                                                                                        "id": {
+                                                                                          "type": "string"
+                                                                                        },
+                                                                                        "attributes": {
+                                                                                          "type": "object",
+                                                                                          "properties": {}
+                                                                                        }
                                                                                       }
                                                                                     }
                                                                                   }
@@ -10975,25 +10987,25 @@
                                             }
                                           }
                                         },
-                                        "pedidos": {
+                                        "pedido": {
                                           "type": "object",
                                           "properties": {
                                             "data": {
-                                              "type": "array",
-                                              "items": {
-                                                "type": "object",
-                                                "properties": {
-                                                  "id": {
-                                                    "type": "string"
-                                                  },
-                                                  "attributes": {
-                                                    "type": "object",
-                                                    "properties": {}
-                                                  }
+                                              "type": "object",
+                                              "properties": {
+                                                "id": {
+                                                  "type": "string"
+                                                },
+                                                "attributes": {
+                                                  "type": "object",
+                                                  "properties": {}
                                                 }
                                               }
                                             }
                                           }
+                                        },
+                                        "nombre_articulo": {
+                                          "type": "string"
                                         },
                                         "createdAt": {
                                           "type": "string",

@@ -81,11 +81,11 @@
       "target": "api::articulo.articulo",
       "inversedBy": "pedidos"
     },
-    "item": {
+    "items": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "oneToMany",
       "target": "api::item.item",
-      "inversedBy": "pedidos"
+      "mappedBy": "pedido"
     }
   }
 }

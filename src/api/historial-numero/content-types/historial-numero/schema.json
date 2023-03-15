@@ -1,0 +1,25 @@
+{
+  "kind": "collectionType",
+  "collectionName": "historial_numeros",
+  "info": {
+    "singularName": "historial-numero",
+    "pluralName": "historial-numeros",
+    "displayName": "historial_numeros",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "articulo": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::articulo.articulo",
+      "inversedBy": "historial_numeros"
+    },
+    "array_numeros": {
+      "type": "richtext"
+    }
+  }
+}

@@ -86,6 +86,14 @@
       "relation": "oneToMany",
       "target": "api::item.item",
       "mappedBy": "pedido"
+    },
+    "distribution": {
+      "type": "boolean"
+    },
+    "bodega": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::bodega.bodega"
     }
   }
 }

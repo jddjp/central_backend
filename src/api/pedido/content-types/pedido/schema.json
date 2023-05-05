@@ -94,6 +94,11 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::bodega.bodega"
+    },
+    "receptor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
     }
   }
 }

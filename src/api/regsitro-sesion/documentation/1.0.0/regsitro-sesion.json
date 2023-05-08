@@ -23,9 +23,6 @@
                                 "type": "string",
                                 "format": "date-time"
                               },
-                              "logIn_logOut": {
-                                "type": "boolean"
-                              },
                               "user": {
                                 "type": "object",
                                 "properties": {
@@ -1288,9 +1285,6 @@
                               "type": "string",
                               "format": "date-time"
                             },
-                            "logIn_logOut": {
-                              "type": "boolean"
-                            },
                             "user": {
                               "type": "object",
                               "properties": {
@@ -2442,9 +2436,6 @@
                         "type": "string",
                         "format": "date-time"
                       },
-                      "logIn_logOut": {
-                        "type": "boolean"
-                      },
                       "user": {
                         "oneOf": [
                           {
@@ -2519,9 +2510,6 @@
                             "fecha_hora_registro": {
                               "type": "string",
                               "format": "date-time"
-                            },
-                            "logIn_logOut": {
-                              "type": "boolean"
                             },
                             "user": {
                               "type": "object",
@@ -3694,9 +3682,6 @@
                               "type": "string",
                               "format": "date-time"
                             },
-                            "logIn_logOut": {
-                              "type": "boolean"
-                            },
                             "user": {
                               "type": "object",
                               "properties": {
@@ -4858,9 +4843,6 @@
                       "fecha_hora_registro": {
                         "type": "string",
                         "format": "date-time"
-                      },
-                      "logIn_logOut": {
-                        "type": "boolean"
                       },
                       "user": {
                         "oneOf": [

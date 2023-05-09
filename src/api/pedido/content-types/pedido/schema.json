@@ -14,11 +14,11 @@
   "attributes": {
     "fecha_pedido": {
       "type": "date",
-      "required": true
+      "required": false
     },
     "hora_pedido": {
       "type": "time",
-      "required": true
+      "required": false
     },
     "estatus": {
       "type": "enumeration",
@@ -26,7 +26,7 @@
         "pendiente",
         "entregado"
       ],
-      "required": true
+      "required": false
     },
     "comentario": {
       "type": "string"

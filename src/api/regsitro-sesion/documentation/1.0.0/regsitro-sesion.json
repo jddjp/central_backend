@@ -19,9 +19,9 @@
                           "attributes": {
                             "type": "object",
                             "properties": {
-                              "fecha_hora_registro": {
+                              "fecha_registro": {
                                 "type": "string",
-                                "format": "date-time"
+                                "format": "date"
                               },
                               "user": {
                                 "type": "object",
@@ -953,6 +953,11 @@
                                   }
                                 }
                               },
+                              "hora_registro": {
+                                "type": "string",
+                                "format": "time",
+                                "example": "12:54.000"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -1281,9 +1286,9 @@
                         "attributes": {
                           "type": "object",
                           "properties": {
-                            "fecha_hora_registro": {
+                            "fecha_registro": {
                               "type": "string",
-                              "format": "date-time"
+                              "format": "date"
                             },
                             "user": {
                               "type": "object",
@@ -2214,6 +2219,11 @@
                                   }
                                 }
                               }
+                            },
+                            "hora_registro": {
+                              "type": "string",
+                              "format": "time",
+                              "example": "12:54.000"
                             },
                             "createdAt": {
                               "type": "string",
@@ -2432,9 +2442,9 @@
                   "data": {
                     "type": "object",
                     "properties": {
-                      "fecha_hora_registro": {
+                      "fecha_registro": {
                         "type": "string",
-                        "format": "date-time"
+                        "format": "date"
                       },
                       "user": {
                         "oneOf": [
@@ -2446,6 +2456,11 @@
                           }
                         ],
                         "example": "string or id"
+                      },
+                      "hora_registro": {
+                        "type": "string",
+                        "format": "time",
+                        "example": "12:54.000"
                       },
                       "createdAt": {
                         "type": "string",
@@ -2507,9 +2522,9 @@
                         "attributes": {
                           "type": "object",
                           "properties": {
-                            "fecha_hora_registro": {
+                            "fecha_registro": {
                               "type": "string",
-                              "format": "date-time"
+                              "format": "date"
                             },
                             "user": {
                               "type": "object",
@@ -3440,6 +3455,11 @@
                                   }
                                 }
                               }
+                            },
+                            "hora_registro": {
+                              "type": "string",
+                              "format": "time",
+                              "example": "12:54.000"
                             },
                             "createdAt": {
                               "type": "string",
@@ -3678,9 +3698,9 @@
                         "attributes": {
                           "type": "object",
                           "properties": {
-                            "fecha_hora_registro": {
+                            "fecha_registro": {
                               "type": "string",
-                              "format": "date-time"
+                              "format": "date"
                             },
                             "user": {
                               "type": "object",
@@ -4612,6 +4632,11 @@
                                 }
                               }
                             },
+                            "hora_registro": {
+                              "type": "string",
+                              "format": "time",
+                              "example": "12:54.000"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -4840,9 +4865,9 @@
                   "data": {
                     "type": "object",
                     "properties": {
-                      "fecha_hora_registro": {
+                      "fecha_registro": {
                         "type": "string",
-                        "format": "date-time"
+                        "format": "date"
                       },
                       "user": {
                         "oneOf": [
@@ -4854,6 +4879,11 @@
                           }
                         ],
                         "example": "string or id"
+                      },
+                      "hora_registro": {
+                        "type": "string",
+                        "format": "time",
+                        "example": "12:54.000"
                       },
                       "createdAt": {
                         "type": "string",

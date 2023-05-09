@@ -12,13 +12,16 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "fecha_hora_registro": {
-      "type": "datetime"
+    "fecha_registro": {
+      "type": "date"
     },
     "user": {
       "type": "relation",
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user"
+    },
+    "hora_registro": {
+      "type": "time"
     }
   }
 }

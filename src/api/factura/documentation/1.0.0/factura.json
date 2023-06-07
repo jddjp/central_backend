@@ -2614,6 +2614,12 @@
                                               }
                                             }
                                           },
+                                          "librador_check": {
+                                            "type": "boolean"
+                                          },
+                                          "despachador_check": {
+                                            "type": "boolean"
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -5598,6 +5604,12 @@
                                             }
                                           }
                                         },
+                                        "librador_check": {
+                                          "type": "boolean"
+                                        },
+                                        "despachador_check": {
+                                          "type": "boolean"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -8500,6 +8512,12 @@
                                             }
                                           }
                                         },
+                                        "librador_check": {
+                                          "type": "boolean"
+                                        },
+                                        "despachador_check": {
+                                          "type": "boolean"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -11392,6 +11410,12 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "librador_check": {
+                                          "type": "boolean"
+                                        },
+                                        "despachador_check": {
+                                          "type": "boolean"
                                         },
                                         "createdAt": {
                                           "type": "string",

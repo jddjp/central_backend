@@ -99,6 +99,14 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "plugin::users-permissions.user"
+    },
+    "librador_check": {
+      "type": "boolean",
+      "default": false
+    },
+    "despachador_check": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

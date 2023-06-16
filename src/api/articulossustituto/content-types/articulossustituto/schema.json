@@ -16,7 +16,7 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::articulo.articulo",
-      "inversedBy": "articulos_sustituto"
+      "mappedBy": "articulos_sustituto"
     },
     "contador_folio": {
       "type": "relation",

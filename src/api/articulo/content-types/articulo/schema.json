@@ -83,11 +83,11 @@
       "target": "api::pedido.pedido",
       "mappedBy": "articulos"
     },
-    "articulos_sustituto": {
+    "articulos_sustitutos": {
       "type": "relation",
-      "relation": "oneToOne",
+      "relation": "oneToMany",
       "target": "api::articulossustituto.articulossustituto",
-      "inversedBy": "articulo"
+      "mappedBy": "articulo"
     },
     "historial_numeros": {
       "type": "relation",

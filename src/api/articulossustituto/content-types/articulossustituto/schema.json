@@ -22,6 +22,11 @@
       "relation": "manyToOne",
       "target": "api::articulo.articulo",
       "inversedBy": "articulos_sustitutos"
+    },
+    "articulo_sustituto": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::articulo.articulo"
     }
   }
 }

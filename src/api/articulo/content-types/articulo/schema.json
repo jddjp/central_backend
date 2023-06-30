@@ -98,6 +98,10 @@
     "isFiscal": {
       "type": "boolean",
       "default": false
+    },
+    "isFisical": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

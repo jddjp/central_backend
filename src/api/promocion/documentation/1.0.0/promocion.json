@@ -2660,6 +2660,9 @@
                                           "isFiscal": {
                                             "type": "boolean"
                                           },
+                                          "isFisical": {
+                                            "type": "boolean"
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -5673,6 +5676,9 @@
                                         "isFiscal": {
                                           "type": "boolean"
                                         },
+                                        "isFisical": {
+                                          "type": "boolean"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -8621,6 +8627,9 @@
                                         "isFiscal": {
                                           "type": "boolean"
                                         },
+                                        "isFisical": {
+                                          "type": "boolean"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -11541,6 +11550,9 @@
                                           }
                                         },
                                         "isFiscal": {
+                                          "type": "boolean"
+                                        },
+                                        "isFisical": {
                                           "type": "boolean"
                                         },
                                         "createdAt": {

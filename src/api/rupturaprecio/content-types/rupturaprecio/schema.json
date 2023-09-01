@@ -20,12 +20,8 @@
       "type": "string",
       "required": true
     },
-    "peso_inferior": {
-      "type": "decimal",
-      "required": true
-    },
-    "peso_superior": {
-      "type": "decimal",
+    "peso": {
+      "type": "float",
       "required": true
     },
     "unidad_de_medida": {

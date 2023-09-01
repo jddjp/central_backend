@@ -2851,11 +2851,7 @@
                                                                       "descripcion_descuento": {
                                                                         "type": "string"
                                                                       },
-                                                                      "peso_inferior": {
-                                                                        "type": "number",
-                                                                        "format": "float"
-                                                                      },
-                                                                      "peso_superior": {
+                                                                      "peso": {
                                                                         "type": "number",
                                                                         "format": "float"
                                                                       },
@@ -6354,11 +6350,7 @@
                                                                     "descripcion_descuento": {
                                                                       "type": "string"
                                                                     },
-                                                                    "peso_inferior": {
-                                                                      "type": "number",
-                                                                      "format": "float"
-                                                                    },
-                                                                    "peso_superior": {
+                                                                    "peso": {
                                                                       "type": "number",
                                                                       "format": "float"
                                                                     },
@@ -9785,11 +9777,7 @@
                                                                     "descripcion_descuento": {
                                                                       "type": "string"
                                                                     },
-                                                                    "peso_inferior": {
-                                                                      "type": "number",
-                                                                      "format": "float"
-                                                                    },
-                                                                    "peso_superior": {
+                                                                    "peso": {
                                                                       "type": "number",
                                                                       "format": "float"
                                                                     },
@@ -13197,11 +13185,7 @@
                                                                     "descripcion_descuento": {
                                                                       "type": "string"
                                                                     },
-                                                                    "peso_inferior": {
-                                                                      "type": "number",
-                                                                      "format": "float"
-                                                                    },
-                                                                    "peso_superior": {
+                                                                    "peso": {
                                                                       "type": "number",
                                                                       "format": "float"
                                                                     },

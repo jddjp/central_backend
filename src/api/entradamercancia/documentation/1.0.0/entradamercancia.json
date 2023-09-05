@@ -2109,16 +2109,8 @@
                                                                               "attributes": {
                                                                                 "type": "object",
                                                                                 "properties": {
-                                                                                  "precio": {
-                                                                                    "type": "number",
-                                                                                    "format": "float"
-                                                                                  },
                                                                                   "descripcion_descuento": {
                                                                                     "type": "string"
-                                                                                  },
-                                                                                  "peso": {
-                                                                                    "type": "number",
-                                                                                    "format": "float"
                                                                                   },
                                                                                   "unidad_de_medida": {
                                                                                     "type": "object",
@@ -2154,6 +2146,7 @@
                                                                                       }
                                                                                     }
                                                                                   },
+                                                                                  "rangos": {},
                                                                                   "createdAt": {
                                                                                     "type": "string",
                                                                                     "format": "date-time"
@@ -5168,16 +5161,8 @@
                                                                             "attributes": {
                                                                               "type": "object",
                                                                               "properties": {
-                                                                                "precio": {
-                                                                                  "type": "number",
-                                                                                  "format": "float"
-                                                                                },
                                                                                 "descripcion_descuento": {
                                                                                   "type": "string"
-                                                                                },
-                                                                                "peso": {
-                                                                                  "type": "number",
-                                                                                  "format": "float"
                                                                                 },
                                                                                 "unidad_de_medida": {
                                                                                   "type": "object",
@@ -5213,6 +5198,7 @@
                                                                                     }
                                                                                   }
                                                                                 },
+                                                                                "rangos": {},
                                                                                 "createdAt": {
                                                                                   "type": "string",
                                                                                   "format": "date-time"
@@ -8154,16 +8140,8 @@
                                                                             "attributes": {
                                                                               "type": "object",
                                                                               "properties": {
-                                                                                "precio": {
-                                                                                  "type": "number",
-                                                                                  "format": "float"
-                                                                                },
                                                                                 "descripcion_descuento": {
                                                                                   "type": "string"
-                                                                                },
-                                                                                "peso": {
-                                                                                  "type": "number",
-                                                                                  "format": "float"
                                                                                 },
                                                                                 "unidad_de_medida": {
                                                                                   "type": "object",
@@ -8199,6 +8177,7 @@
                                                                                     }
                                                                                   }
                                                                                 },
+                                                                                "rangos": {},
                                                                                 "createdAt": {
                                                                                   "type": "string",
                                                                                   "format": "date-time"
@@ -11122,16 +11101,8 @@
                                                                             "attributes": {
                                                                               "type": "object",
                                                                               "properties": {
-                                                                                "precio": {
-                                                                                  "type": "number",
-                                                                                  "format": "float"
-                                                                                },
                                                                                 "descripcion_descuento": {
                                                                                   "type": "string"
-                                                                                },
-                                                                                "peso": {
-                                                                                  "type": "number",
-                                                                                  "format": "float"
                                                                                 },
                                                                                 "unidad_de_medida": {
                                                                                   "type": "object",
@@ -11167,6 +11138,7 @@
                                                                                     }
                                                                                   }
                                                                                 },
+                                                                                "rangos": {},
                                                                                 "createdAt": {
                                                                                   "type": "string",
                                                                                   "format": "date-time"

@@ -19,16 +19,8 @@
                           "attributes": {
                             "type": "object",
                             "properties": {
-                              "precio": {
-                                "type": "number",
-                                "format": "float"
-                              },
                               "descripcion_descuento": {
                                 "type": "string"
-                              },
-                              "peso": {
-                                "type": "number",
-                                "format": "float"
                               },
                               "unidad_de_medida": {
                                 "type": "object",
@@ -2087,16 +2079,8 @@
                                                                               "attributes": {
                                                                                 "type": "object",
                                                                                 "properties": {
-                                                                                  "precio": {
-                                                                                    "type": "number",
-                                                                                    "format": "float"
-                                                                                  },
                                                                                   "descripcion_descuento": {
                                                                                     "type": "string"
-                                                                                  },
-                                                                                  "peso": {
-                                                                                    "type": "number",
-                                                                                    "format": "float"
                                                                                   },
                                                                                   "unidad_de_medida": {
                                                                                     "type": "object",
@@ -2132,6 +2116,7 @@
                                                                                       }
                                                                                     }
                                                                                   },
+                                                                                  "rangos": {},
                                                                                   "createdAt": {
                                                                                     "type": "string",
                                                                                     "format": "date-time"
@@ -2715,6 +2700,7 @@
                                   }
                                 }
                               },
+                              "rangos": {},
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -3039,16 +3025,8 @@
                         "attributes": {
                           "type": "object",
                           "properties": {
-                            "precio": {
-                              "type": "number",
-                              "format": "float"
-                            },
                             "descripcion_descuento": {
                               "type": "string"
-                            },
-                            "peso": {
-                              "type": "number",
-                              "format": "float"
                             },
                             "unidad_de_medida": {
                               "type": "object",
@@ -5107,16 +5085,8 @@
                                                                             "attributes": {
                                                                               "type": "object",
                                                                               "properties": {
-                                                                                "precio": {
-                                                                                  "type": "number",
-                                                                                  "format": "float"
-                                                                                },
                                                                                 "descripcion_descuento": {
                                                                                   "type": "string"
-                                                                                },
-                                                                                "peso": {
-                                                                                  "type": "number",
-                                                                                  "format": "float"
                                                                                 },
                                                                                 "unidad_de_medida": {
                                                                                   "type": "object",
@@ -5152,6 +5122,7 @@
                                                                                     }
                                                                                   }
                                                                                 },
+                                                                                "rangos": {},
                                                                                 "createdAt": {
                                                                                   "type": "string",
                                                                                   "format": "date-time"
@@ -5735,6 +5706,7 @@
                                 }
                               }
                             },
+                            "rangos": {},
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -5948,16 +5920,61 @@
                   "data": {
                     "type": "object",
                     "properties": {
-                      "precio": {
-                        "type": "number",
-                        "format": "float"
-                      },
                       "descripcion_descuento": {
                         "type": "string"
                       },
-                      "peso": {
-                        "type": "number",
-                        "format": "float"
+                      "unidad_de_medida": {
+                        "oneOf": [
+                          {
+                            "type": "integer"
+                          },
+                          {
+                            "type": "string"
+                          }
+                        ],
+                        "example": "string or id"
+                      },
+                      "articulo": {
+                        "oneOf": [
+                          {
+                            "type": "integer"
+                          },
+                          {
+                            "type": "string"
+                          }
+                        ],
+                        "example": "string or id"
+                      },
+                      "rangos": {},
+                      "createdAt": {
+                        "type": "string",
+                        "format": "date-time"
+                      },
+                      "updatedAt": {
+                        "type": "string",
+                        "format": "date-time"
+                      },
+                      "createdBy": {
+                        "oneOf": [
+                          {
+                            "type": "integer"
+                          },
+                          {
+                            "type": "string"
+                          }
+                        ],
+                        "example": "string or id"
+                      },
+                      "updatedBy": {
+                        "oneOf": [
+                          {
+                            "type": "integer"
+                          },
+                          {
+                            "type": "string"
+                          }
+                        ],
+                        "example": "string or id"
                       }
                     }
                   }
@@ -5985,16 +6002,8 @@
                         "attributes": {
                           "type": "object",
                           "properties": {
-                            "precio": {
-                              "type": "number",
-                              "format": "float"
-                            },
                             "descripcion_descuento": {
                               "type": "string"
-                            },
-                            "peso": {
-                              "type": "number",
-                              "format": "float"
                             },
                             "unidad_de_medida": {
                               "type": "object",
@@ -8053,16 +8062,8 @@
                                                                             "attributes": {
                                                                               "type": "object",
                                                                               "properties": {
-                                                                                "precio": {
-                                                                                  "type": "number",
-                                                                                  "format": "float"
-                                                                                },
                                                                                 "descripcion_descuento": {
                                                                                   "type": "string"
-                                                                                },
-                                                                                "peso": {
-                                                                                  "type": "number",
-                                                                                  "format": "float"
                                                                                 },
                                                                                 "unidad_de_medida": {
                                                                                   "type": "object",
@@ -8098,6 +8099,7 @@
                                                                                     }
                                                                                   }
                                                                                 },
+                                                                                "rangos": {},
                                                                                 "createdAt": {
                                                                                   "type": "string",
                                                                                   "format": "date-time"
@@ -8681,6 +8683,7 @@
                                 }
                               }
                             },
+                            "rangos": {},
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -8914,16 +8917,8 @@
                         "attributes": {
                           "type": "object",
                           "properties": {
-                            "precio": {
-                              "type": "number",
-                              "format": "float"
-                            },
                             "descripcion_descuento": {
                               "type": "string"
-                            },
-                            "peso": {
-                              "type": "number",
-                              "format": "float"
                             },
                             "unidad_de_medida": {
                               "type": "object",
@@ -10982,16 +10977,8 @@
                                                                             "attributes": {
                                                                               "type": "object",
                                                                               "properties": {
-                                                                                "precio": {
-                                                                                  "type": "number",
-                                                                                  "format": "float"
-                                                                                },
                                                                                 "descripcion_descuento": {
                                                                                   "type": "string"
-                                                                                },
-                                                                                "peso": {
-                                                                                  "type": "number",
-                                                                                  "format": "float"
                                                                                 },
                                                                                 "unidad_de_medida": {
                                                                                   "type": "object",
@@ -11027,6 +11014,7 @@
                                                                                     }
                                                                                   }
                                                                                 },
+                                                                                "rangos": {},
                                                                                 "createdAt": {
                                                                                   "type": "string",
                                                                                   "format": "date-time"
@@ -11610,6 +11598,7 @@
                                 }
                               }
                             },
+                            "rangos": {},
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -11834,16 +11823,8 @@
                   "data": {
                     "type": "object",
                     "properties": {
-                      "precio": {
-                        "type": "number",
-                        "format": "float"
-                      },
                       "descripcion_descuento": {
                         "type": "string"
-                      },
-                      "peso": {
-                        "type": "number",
-                        "format": "float"
                       },
                       "unidad_de_medida": {
                         "oneOf": [
@@ -11867,6 +11848,7 @@
                         ],
                         "example": "string or id"
                       },
+                      "rangos": {},
                       "createdAt": {
                         "type": "string",
                         "format": "date-time"

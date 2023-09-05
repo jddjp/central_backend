@@ -12,17 +12,9 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "precio": {
-      "type": "decimal",
-      "required": true
-    },
     "descripcion_descuento": {
       "type": "string",
-      "required": true
-    },
-    "peso": {
-      "type": "float",
-      "required": true
+      "required": false
     },
     "unidad_de_medida": {
       "type": "relation",
@@ -33,6 +25,9 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::articulo.articulo"
+    },
+    "rangos": {
+      "type": "json"
     }
   }
 }

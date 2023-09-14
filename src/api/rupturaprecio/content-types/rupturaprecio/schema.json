@@ -24,7 +24,8 @@
     "articulo": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::articulo.articulo"
+      "target": "api::articulo.articulo",
+      "mappedBy": "ruptura_precio"
     },
     "rangos": {
       "type": "json"

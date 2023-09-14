@@ -102,6 +102,12 @@
     "isFisical": {
       "type": "boolean",
       "default": false
+    },
+    "ruptura_precio": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::rupturaprecio.rupturaprecio",
+      "inversedBy": "articulo"
     }
   }
 }

@@ -28,17 +28,19 @@
     },
     "articulo": {
       "type": "relation",
-      "relation": "oneToOne",
-      "target": "api::articulo.articulo"
+      "relation": "manyToOne",
+      "target": "api::articulo.articulo",
+      "inversedBy": "stocks"
     },
     "imagen": {
+      "type": "media",
+      "multiple": true,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": true
+      ]
     }
   }
 }

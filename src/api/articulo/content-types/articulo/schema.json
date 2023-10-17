@@ -114,6 +114,9 @@
       "relation": "oneToMany",
       "target": "api::stock.stock",
       "mappedBy": "articulo"
+    },
+    "cantidad_stock": {
+      "type": "integer"
     }
   }
 }

@@ -3140,6 +3140,9 @@
                                               }
                                             }
                                           },
+                                          "cantidad_stock": {
+                                            "type": "integer"
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -6640,6 +6643,9 @@
                                             }
                                           }
                                         },
+                                        "cantidad_stock": {
+                                          "type": "integer"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -10103,6 +10109,9 @@
                                             }
                                           }
                                         },
+                                        "cantidad_stock": {
+                                          "type": "integer"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -13511,6 +13520,9 @@
                                               }
                                             }
                                           }
+                                        },
+                                        "cantidad_stock": {
+                                          "type": "integer"
                                         },
                                         "createdAt": {
                                           "type": "string",

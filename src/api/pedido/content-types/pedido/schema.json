@@ -14,11 +14,11 @@
   "attributes": {
     "fecha_pedido": {
       "type": "date",
-      "required": true
+      "required": false
     },
     "hora_pedido": {
       "type": "time",
-      "required": true
+      "required": false
     },
     "estatus": {
       "type": "enumeration",
@@ -26,7 +26,7 @@
         "pendiente",
         "entregado"
       ],
-      "required": true
+      "required": false
     },
     "comentario": {
       "type": "string"
@@ -81,11 +81,32 @@
       "target": "api::articulo.articulo",
       "inversedBy": "pedidos"
     },
-    "item": {
+    "items": {
       "type": "relation",
-      "relation": "manyToOne",
+      "relation": "oneToMany",
       "target": "api::item.item",
-      "inversedBy": "pedidos"
+      "mappedBy": "pedido"
+    },
+    "distribution": {
+      "type": "boolean"
+    },
+    "bodega": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::bodega.bodega"
+    },
+    "receptor": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "librador_check": {
+      "type": "boolean",
+      "default": false
+    },
+    "despachador_check": {
+      "type": "boolean",
+      "default": false
     }
   }
 }

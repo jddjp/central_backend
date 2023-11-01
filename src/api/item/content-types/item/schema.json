@@ -44,11 +44,14 @@
       "relation": "oneToOne",
       "target": "api::rupturaprecio.rupturaprecio"
     },
-    "pedidos": {
+    "pedido": {
       "type": "relation",
-      "relation": "oneToMany",
+      "relation": "manyToOne",
       "target": "api::pedido.pedido",
-      "mappedBy": "item"
+      "inversedBy": "items"
+    },
+    "nombre_articulo": {
+      "type": "string"
     }
   }
 }

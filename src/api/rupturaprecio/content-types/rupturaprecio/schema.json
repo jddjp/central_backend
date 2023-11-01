@@ -12,21 +12,9 @@
   },
   "pluginOptions": {},
   "attributes": {
-    "precio": {
-      "type": "decimal",
-      "required": true
-    },
     "descripcion_descuento": {
       "type": "string",
-      "required": true
-    },
-    "peso_inferior": {
-      "type": "decimal",
-      "required": true
-    },
-    "peso_superior": {
-      "type": "decimal",
-      "required": true
+      "required": false
     },
     "unidad_de_medida": {
       "type": "relation",
@@ -36,7 +24,11 @@
     "articulo": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::articulo.articulo"
+      "target": "api::articulo.articulo",
+      "mappedBy": "ruptura_precio"
+    },
+    "rangos": {
+      "type": "json"
     }
   }
 }

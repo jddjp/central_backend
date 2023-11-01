@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "regsitro_sesiones",
+  "info": {
+    "singularName": "regsitro-sesion",
+    "pluralName": "regsitro-sesiones",
+    "displayName": "Regsitro_sesiones",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "fecha_registro": {
+      "type": "date"
+    },
+    "user": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
+    },
+    "hora_registro": {
+      "type": "time"
+    }
+  }
+}

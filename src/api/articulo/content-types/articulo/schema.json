@@ -4,7 +4,8 @@
   "info": {
     "singularName": "articulo",
     "pluralName": "articulos",
-    "displayName": "Artículos"
+    "displayName": "Artículos",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -55,11 +56,12 @@
       "default": 0
     },
     "foto": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
     "fresh": {
       "type": "boolean",
@@ -79,13 +81,48 @@
       "type": "relation",
       "relation": "manyToMany",
       "target": "api::pedido.pedido",
-      "inversedBy": "articulos"
+      "mappedBy": "articulos"
     },
-    "articulos_sustituto": {
+    "articulos_sustitutos": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::articulossustituto.articulossustituto",
+      "mappedBy": "articulo"
+    },
+    "historial_numeros": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::historial-numero.historial-numero",
+      "mappedBy": "articulo"
+    },
+    "isFiscal": {
+      "type": "boolean",
+      "default": false
+    },
+    "isFisical": {
+      "type": "boolean",
+      "default": false
+    },
+    "ruptura_precio": {
       "type": "relation",
       "relation": "oneToOne",
-      "target": "api::articulossustituto.articulossustituto",
+      "target": "api::rupturaprecio.rupturaprecio",
       "inversedBy": "articulo"
+    },
+    "stocks": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::stock.stock",
+      "mappedBy": "articulo"
+    },
+    "cantidad_stock": {
+      "type": "integer"
+    },
+    "orden_refills": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::orden-refill.orden-refill",
+      "mappedBy": "articulo"
     }
   }
 }

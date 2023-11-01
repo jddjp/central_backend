@@ -117,6 +117,12 @@
     },
     "cantidad_stock": {
       "type": "integer"
+    },
+    "orden_refills": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::orden-refill.orden-refill",
+      "mappedBy": "articulo"
     }
   }
 }

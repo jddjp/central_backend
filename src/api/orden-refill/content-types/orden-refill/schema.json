@@ -4,10 +4,16 @@
   "info": {
     "singularName": "orden-refill",
     "pluralName": "orden-refills",
-    "displayName": "Orden Refill"
+    "displayName": "Orden Refill",
+    "description": ""
   },
   "options": {
-    "draftAndPublish": true
+    "draftAndPublish": true,
+    "populateCreatorFields": true,
+    "publicAttributes": [
+      "created_at",
+      "updated_by"
+    ]
   },
   "pluginOptions": {},
   "attributes": {
@@ -19,6 +25,11 @@
       "relation": "manyToOne",
       "target": "api::articulo.articulo",
       "inversedBy": "orden_refills"
+    },
+    "created__by": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "plugin::users-permissions.user"
     }
   }
 }

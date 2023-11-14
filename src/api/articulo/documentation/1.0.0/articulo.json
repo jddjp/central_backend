@@ -3416,6 +3416,10 @@
                                                               }
                                                             }
                                                           },
+                                                          "iva": {
+                                                            "type": "number",
+                                                            "format": "float"
+                                                          },
                                                           "createdAt": {
                                                             "type": "string",
                                                             "format": "date-time"
@@ -3861,6 +3865,10 @@
                                     }
                                   }
                                 }
+                              },
+                              "iva": {
+                                "type": "number",
+                                "format": "float"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -7583,6 +7591,10 @@
                                                             }
                                                           }
                                                         },
+                                                        "iva": {
+                                                          "type": "number",
+                                                          "format": "float"
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
@@ -8028,6 +8040,10 @@
                                   }
                                 }
                               }
+                            },
+                            "iva": {
+                              "type": "number",
+                              "format": "float"
                             },
                             "createdAt": {
                               "type": "string",
@@ -11678,6 +11694,10 @@
                                                             }
                                                           }
                                                         },
+                                                        "iva": {
+                                                          "type": "number",
+                                                          "format": "float"
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
@@ -12123,6 +12143,10 @@
                                   }
                                 }
                               }
+                            },
+                            "iva": {
+                              "type": "number",
+                              "format": "float"
                             },
                             "createdAt": {
                               "type": "string",
@@ -15754,6 +15778,10 @@
                                                             }
                                                           }
                                                         },
+                                                        "iva": {
+                                                          "type": "number",
+                                                          "format": "float"
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
@@ -16200,6 +16228,10 @@
                                 }
                               }
                             },
+                            "iva": {
+                              "type": "number",
+                              "format": "float"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -16594,6 +16626,10 @@
                           ],
                           "example": "string or id"
                         }
+                      },
+                      "iva": {
+                        "type": "number",
+                        "format": "float"
                       },
                       "createdAt": {
                         "type": "string",

@@ -123,6 +123,9 @@
       "relation": "oneToMany",
       "target": "api::orden-refill.orden-refill",
       "mappedBy": "articulo"
+    },
+    "iva": {
+      "type": "float"
     }
   }
 }

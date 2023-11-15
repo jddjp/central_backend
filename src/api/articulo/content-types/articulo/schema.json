@@ -126,6 +126,9 @@
     },
     "iva": {
       "type": "float"
+    },
+    "isFacturable": {
+      "type": "boolean"
     }
   }
 }

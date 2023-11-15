@@ -3271,6 +3271,9 @@
                                             "type": "number",
                                             "format": "float"
                                           },
+                                          "isFacturable": {
+                                            "type": "boolean"
+                                          },
                                           "createdAt": {
                                             "type": "string",
                                             "format": "date-time"
@@ -6896,6 +6899,9 @@
                                           "type": "number",
                                           "format": "float"
                                         },
+                                        "isFacturable": {
+                                          "type": "boolean"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -10492,6 +10498,9 @@
                                           "type": "number",
                                           "format": "float"
                                         },
+                                        "isFacturable": {
+                                          "type": "boolean"
+                                        },
                                         "createdAt": {
                                           "type": "string",
                                           "format": "date-time"
@@ -14025,6 +14034,9 @@
                                         "iva": {
                                           "type": "number",
                                           "format": "float"
+                                        },
+                                        "isFacturable": {
+                                          "type": "boolean"
                                         },
                                         "createdAt": {
                                           "type": "string",

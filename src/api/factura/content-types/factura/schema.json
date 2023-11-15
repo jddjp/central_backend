@@ -4,7 +4,8 @@
   "info": {
     "singularName": "factura",
     "pluralName": "facturas",
-    "displayName": "Facturas"
+    "displayName": "Facturas",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -25,6 +26,12 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::cliente.cliente"
+    },
+    "xml": {
+      "type": "text"
+    },
+    "pdf": {
+      "type": "text"
     }
   }
 }

@@ -1,0 +1,25 @@
+{
+  "kind": "singleType",
+  "collectionName": "datos_facturacions",
+  "info": {
+    "singularName": "datos-facturacion",
+    "pluralName": "datos-facturacions",
+    "displayName": "Datos facturacion",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "rfc_emisor": {
+      "type": "string"
+    },
+    "nombre_emisor": {
+      "type": "string"
+    },
+    "regimen_fiscal_emisor": {
+      "type": "string"
+    }
+  }
+}

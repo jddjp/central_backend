@@ -4,7 +4,8 @@
   "info": {
     "singularName": "cliente",
     "pluralName": "clientes",
-    "displayName": "Clientes"
+    "displayName": "Clientes",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -49,6 +50,12 @@
       "type": "string"
     },
     "estado": {
+      "type": "string"
+    },
+    "RA": {
+      "type": "string"
+    },
+    "razon_social": {
       "type": "string"
     }
   }

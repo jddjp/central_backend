@@ -1056,6 +1056,9 @@
                                                       "nombre": {
                                                         "type": "string"
                                                       },
+                                                      "clave_unidad_sat": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -2002,6 +2005,12 @@
                                                                                             "estado": {
                                                                                               "type": "string"
                                                                                             },
+                                                                                            "RA": {
+                                                                                              "type": "string"
+                                                                                            },
+                                                                                            "razon_social": {
+                                                                                              "type": "string"
+                                                                                            },
                                                                                             "createdAt": {
                                                                                               "type": "string",
                                                                                               "format": "date-time"
@@ -2098,6 +2107,12 @@
                                                                                                   }
                                                                                                 }
                                                                                               }
+                                                                                            },
+                                                                                            "xml": {
+                                                                                              "type": "string"
+                                                                                            },
+                                                                                            "pdf": {
+                                                                                              "type": "string"
                                                                                             },
                                                                                             "createdAt": {
                                                                                               "type": "string",
@@ -3229,6 +3244,9 @@
                                                                   },
                                                                   "isFacturable": {
                                                                     "type": "boolean"
+                                                                  },
+                                                                  "clave_prod_serv": {
+                                                                    "type": "string"
                                                                   },
                                                                   "createdAt": {
                                                                     "type": "string",
@@ -4756,6 +4774,9 @@
                                                     "nombre": {
                                                       "type": "string"
                                                     },
+                                                    "clave_unidad_sat": {
+                                                      "type": "string"
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -5702,6 +5723,12 @@
                                                                                           "estado": {
                                                                                             "type": "string"
                                                                                           },
+                                                                                          "RA": {
+                                                                                            "type": "string"
+                                                                                          },
+                                                                                          "razon_social": {
+                                                                                            "type": "string"
+                                                                                          },
                                                                                           "createdAt": {
                                                                                             "type": "string",
                                                                                             "format": "date-time"
@@ -5798,6 +5825,12 @@
                                                                                                 }
                                                                                               }
                                                                                             }
+                                                                                          },
+                                                                                          "xml": {
+                                                                                            "type": "string"
+                                                                                          },
+                                                                                          "pdf": {
+                                                                                            "type": "string"
                                                                                           },
                                                                                           "createdAt": {
                                                                                             "type": "string",
@@ -6929,6 +6962,9 @@
                                                                 },
                                                                 "isFacturable": {
                                                                   "type": "boolean"
+                                                                },
+                                                                "clave_prod_serv": {
+                                                                  "type": "string"
                                                                 },
                                                                 "createdAt": {
                                                                   "type": "string",
@@ -8375,6 +8411,9 @@
                                                     "nombre": {
                                                       "type": "string"
                                                     },
+                                                    "clave_unidad_sat": {
+                                                      "type": "string"
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -9321,6 +9360,12 @@
                                                                                           "estado": {
                                                                                             "type": "string"
                                                                                           },
+                                                                                          "RA": {
+                                                                                            "type": "string"
+                                                                                          },
+                                                                                          "razon_social": {
+                                                                                            "type": "string"
+                                                                                          },
                                                                                           "createdAt": {
                                                                                             "type": "string",
                                                                                             "format": "date-time"
@@ -9417,6 +9462,12 @@
                                                                                                 }
                                                                                               }
                                                                                             }
+                                                                                          },
+                                                                                          "xml": {
+                                                                                            "type": "string"
+                                                                                          },
+                                                                                          "pdf": {
+                                                                                            "type": "string"
                                                                                           },
                                                                                           "createdAt": {
                                                                                             "type": "string",
@@ -10548,6 +10599,9 @@
                                                                 },
                                                                 "isFacturable": {
                                                                   "type": "boolean"
+                                                                },
+                                                                "clave_prod_serv": {
+                                                                  "type": "string"
                                                                 },
                                                                 "createdAt": {
                                                                   "type": "string",
@@ -11984,6 +12038,9 @@
                                                     "nombre": {
                                                       "type": "string"
                                                     },
+                                                    "clave_unidad_sat": {
+                                                      "type": "string"
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -12930,6 +12987,12 @@
                                                                                           "estado": {
                                                                                             "type": "string"
                                                                                           },
+                                                                                          "RA": {
+                                                                                            "type": "string"
+                                                                                          },
+                                                                                          "razon_social": {
+                                                                                            "type": "string"
+                                                                                          },
                                                                                           "createdAt": {
                                                                                             "type": "string",
                                                                                             "format": "date-time"
@@ -13026,6 +13089,12 @@
                                                                                                 }
                                                                                               }
                                                                                             }
+                                                                                          },
+                                                                                          "xml": {
+                                                                                            "type": "string"
+                                                                                          },
+                                                                                          "pdf": {
+                                                                                            "type": "string"
                                                                                           },
                                                                                           "createdAt": {
                                                                                             "type": "string",
@@ -14157,6 +14226,9 @@
                                                                 },
                                                                 "isFacturable": {
                                                                   "type": "boolean"
+                                                                },
+                                                                "clave_prod_serv": {
+                                                                  "type": "string"
                                                                 },
                                                                 "createdAt": {
                                                                   "type": "string",

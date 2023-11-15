@@ -53,6 +53,12 @@
                               "estado": {
                                 "type": "string"
                               },
+                              "RA": {
+                                "type": "string"
+                              },
+                              "razon_social": {
+                                "type": "string"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -662,6 +668,12 @@
                             "estado": {
                               "type": "string"
                             },
+                            "RA": {
+                              "type": "string"
+                            },
+                            "razon_social": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -1208,6 +1220,12 @@
                             "estado": {
                               "type": "string"
                             },
+                            "RA": {
+                              "type": "string"
+                            },
+                            "razon_social": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -1726,6 +1744,12 @@
                             "estado": {
                               "type": "string"
                             },
+                            "RA": {
+                              "type": "string"
+                            },
+                            "razon_social": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -2233,6 +2257,12 @@
                         "type": "string"
                       },
                       "estado": {
+                        "type": "string"
+                      },
+                      "RA": {
+                        "type": "string"
+                      },
+                      "razon_social": {
                         "type": "string"
                       },
                       "createdAt": {

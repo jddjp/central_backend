@@ -5,4 +5,17 @@ module.exports = ({ env }) => ({
   apiToken: {
     salt: env('API_TOKEN_SALT', 'someKey'),
   },
+  sifeiRest: {
+    host: env('SIFEI_HOST_REST', 'https://devcfdi.sifei.com.mx'),
+    hostPdf: env('SIFEI_HOST_PDF', ''),
+    user: env('SIFEI_USER', ''),
+    pass: env('SIFEI_PASS_REST', ''),
+    pdfToken: env('SIFEI_PDF_TOKEN', ''),
+  },
+  sifeiSoap: {
+    host: env('SIFEI_HOST_SOAP', ''),
+    user: env('SIFEI_USER', ''),
+    pass: env('SIFEI_PASS_SOAP', ''),
+    idEquipo: env('SIFEI_IDEQUIPO_SOAP', ''),
+  },
 });

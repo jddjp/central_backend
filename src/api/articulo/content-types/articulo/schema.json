@@ -129,6 +129,9 @@
     },
     "isFacturable": {
       "type": "boolean"
+    },
+    "clave_prod_serv": {
+      "type": "string"
     }
   }
 }

@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<cfdi:Comprobante xmlns:cfdi="http://www.sat.gob.mx/cfd/4" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" Certificado="MIIFrTCCA5WgAwIBAgIUMzAwMDEwMDAwMDA1MDAwMDM0MzEwDQYJKoZIhvcNAQELBQAwggErMQ8wDQYDVQQDDAZBQyBVQVQxLjAsBgNVBAoMJVNFUlZJQ0lPIERFIEFETUlOSVNUUkFDSU9OIFRSSUJVVEFSSUExGjAYBgNVBAsMEVNBVC1JRVMgQXV0aG9yaXR5MSgwJgYJKoZIhvcNAQkBFhlvc2Nhci5tYXJ0aW5lekBzYXQuZ29iLm14MR0wGwYDVQQJDBQzcmEgY2VycmFkYSBkZSBjYWxpejEOMAwGA1UEEQwFMDYzNzAxCzAJBgNVBAYTAk1YMRkwFwYDVQQIDBBDSVVEQUQgREUgTUVYSUNPMREwDwYDVQQHDAhDT1lPQUNBTjERMA8GA1UELRMIMi41LjQuNDUxJTAjBgkqhkiG9w0BCQITFnJlc3BvbnNhYmxlOiBBQ0RNQS1TQVQwHhcNMjMwNTE4MTI0MjE0WhcNMjcwNTE4MTI0MjE0WjCB1DEmMCQGA1UEAxQdSEVSUkVSSUEgJiBFTEVDVFJJQ09TIFMgREUgQ1YxJjAkBgNVBCkUHUhFUlJFUklBICYgRUxFQ1RSSUNPUyBTIERFIENWMSYwJAYDVQQKFB1IRVJSRVJJQSAmIEVMRUNUUklDT1MgUyBERSBDVjElMCMGA1UELRQcSCZFOTUxMTI4NDY5IC8gVkFEQTgwMDkyN0RKMzEeMBwGA1UEBRMVIC8gVkFEQTgwMDkyN0hTUlNSTDA1MRMwEQYDVQQLEwpTdWN1cnNhbCAxMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqHjtcPT4v+K0jXrhGsx+8sSS1eJ9LxCnY3/qaodXPFEik04VtM6N5as4ECs88L5zSkg182dOynfOPWAtH8Iy4Tqs39WNvvOeyIAUSvcKBU3NJtJDG93z+Eb3ExIw6NJ1fVivLtFFxVHDiJR4aZMzWixqt+tHyaOdoJ4s1qEezDZRidn0LJGgi5f+Zi6wYh51IlhJipiH0b1r/tl8tdMMxpgIr2rHGKodg+OtT/JC1xZSqpsLWJrXobTWGIuzZTVvAMIqyYzyoQwhE7hF/gWwnrcQESZWiPdpMgxhTGtTId28lAVePY+i5fi0VkotqrMf7MbtFWXqrTzw+4x084l0KQIDAQABox0wGzAMBgNVHRMBAf8EAjAAMAsGA1UdDwQEAwIGwDANBgkqhkiG9w0BAQsFAAOCAgEAdmYSUf2x1PaZ8lV2/xteUmmEBNULVIlr1l9l9RId111iymbJN8SrQmLh/8fvR8mR02iMOSQHI6330krcv8Xh/fs4U237kT62jfeezE9ZMtfbKnAxWbAJXyA6sAz2MbwJblLyA/m/NjuJirVEtTnOK8ARNrUwg2Mr1yKWjH3yi1Nx5qksYDvki7082hxA0EV7HxF6xoMFO6EGStdAoHd3m4T8VQ2hz392u35TiDair7CXA02eue7RIQLvT9BdJl2AcDdo2hLe8Pok5+HLJkLOre2akwoMttif8PZjAxIjwcecw7O+l4BOxeO8g5HGxjgvI9YMADptQxh6wh+uQhM2SFtVzM9un8JCIuxTzFA93yvoPswuZiMMMoDIv4Qa6mkI6I+BuaAVL5k6v8qSe9+EDSsNgdhIX4sg0Vyf5INxCv1uhqXcvfK55x9m0KNC2+pQR3aOKjwhFxoOqgsQ+shrhVU9MnYh18vKRwMcwJ+JNG9weEtpp+IP3VRg8ymx6YZaH3aUya8XGKefGOJvCDI0rP4CRJ31U+hPEj+RslE5qxpLHAYxvUG+0lN9gPreLXignsj1cIMlXeFjueqqmUxUYrXJpK+pF2TZId6INxHtBx2VUuDu/lvmkdKu0uqfE+LKwF9tgROF4ziI++RckYLscBmYFV4ZikhEfhkPnNYSGgc=" CondicionesDePago="validador" Descuento="0.00" Exportacion="01" Fecha="2023-11-07T16:24:46" Folio="1" FormaPago="01" LugarExpedicion="72010" MetodoPago="PUE" Moneda="MXN" NoCertificado="30001000000500003431" Sello="HDxalyBQ1p30IfG5DmSeb9Cf7MmA4w9wNNwj+fr+E5yIZmyiUrSaZnohUPR0NoC7MB0xLBCvaBg68Y46DlTmDTvJp2dPCBiPYZVb55R+RIFQN4bMsFbHO0xsr4h0VmafYCO/JSb6tNaACXuJyjfL1Fw7awcXXUzxn8ILKMGpbrj+Klro5knm5rTsuOjE3MwwqfT9jaRR8w5jzAR2AjbsKQ1JxMeRj9M1Clv756icoBaxgpu3Sn3YrBocPS56TwB9szmJbDM5zvuL1c8y++8UpFhEbyjWPoeNLEmzMyeeeFpNgpnz5Ha+SZHdMVb1yyGQ6clq3oK4xz9G8D3OZ8ZWPw==" Serie="A" SubTotal="2750" TipoCambio="1" TipoDeComprobante="I" Total="3190.00" Version="4.0" xsi:schemaLocation="http://www.sat.gob.mx/cfd/4 http://www.sat.gob.mx/sitio_internet/cfd/4/cfdv40.xsd">
+    <cfdi:CfdiRelacionados TipoRelacion="01">
+        <cfdi:CfdiRelacionado UUID="A39DA66B-52CA-49E3-879B-5C05185B0EF7" />
+        <cfdi:CfdiRelacionado UUID="A39DA66B-52CA-49E3-879B-5C05185B0EF7" />
+    </cfdi:CfdiRelacionados>
+    <cfdi:CfdiRelacionados TipoRelacion="02">
+        <cfdi:CfdiRelacionado UUID="4A1B43E2-1183-4AD4-A3DE-C2DA787AE56A" />
+    </cfdi:CfdiRelacionados>
+    <cfdi:Emisor Nombre="HERRERIA &amp; ELECTRICOS SA DE CV" RegimenFiscal="601" Rfc="H&amp;E951128469" />
+    <cfdi:Receptor DomicilioFiscalReceptor="94300" Nombre="ILUNIMADORA DE ALMACENES SA DE CV" RegimenFiscalReceptor="626" Rfc="IIA040805DZ4" UsoCFDI="S01" />
+    <cfdi:Conceptos>
+        <cfdi:Concepto Cantidad="1.0" ClaveProdServ="80131502 " ClaveUnidad="E48" Descripcion="Viaje de parafina" Descuento="0.00" Importe="2750.00" NoIdentificacion="R000002" ObjetoImp="02" Unidad="pzs" ValorUnitario="2750.00">
+            <cfdi:Impuestos>
+                <cfdi:Traslados>
+                    <cfdi:Traslado Base="2750.00" Importe="440.00" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+                </cfdi:Traslados>
+            </cfdi:Impuestos>
+            <cfdi:InformacionAduanera NumeroPedimento="21  80  1871  0999999" />
+            <cfdi:CuentaPredial Numero="12345" />
+            <cfdi:Parte Cantidad="2" ClaveProdServ="10101502" Descripcion="test validador nodo parte" Importe="2400" NoIdentificacion="456789" Unidad="pzs" ValorUnitario="1200.00">
+                <cfdi:InformacionAduanera NumeroPedimento="21  80  1871  0999999" />
+            </cfdi:Parte>
+        </cfdi:Concepto>
+    </cfdi:Conceptos>
+    <cfdi:Impuestos TotalImpuestosTrasladados="440.00">
+        <cfdi:Traslados>
+            <cfdi:Traslado Base="2750.00" Importe="440.00" Impuesto="002" TasaOCuota="0.160000" TipoFactor="Tasa" />
+        </cfdi:Traslados>
+    </cfdi:Impuestos>
+<cfdi:Complemento><tfd:TimbreFiscalDigital xmlns:tfd="http://www.sat.gob.mx/TimbreFiscalDigital" xsi:schemaLocation="http://www.sat.gob.mx/TimbreFiscalDigital http://www.sat.gob.mx/sitio_internet/cfd/TimbreFiscalDigital/TimbreFiscalDigitalv11.xsd" Version="1.1" UUID="8EF656F2-29F1-4015-B0BD-93F09F36F22F" FechaTimbrado="2023-11-10T15:51:38" RfcProvCertif="SPR190613I52" SelloCFD="HDxalyBQ1p30IfG5DmSeb9Cf7MmA4w9wNNwj+fr+E5yIZmyiUrSaZnohUPR0NoC7MB0xLBCvaBg68Y46DlTmDTvJp2dPCBiPYZVb55R+RIFQN4bMsFbHO0xsr4h0VmafYCO/JSb6tNaACXuJyjfL1Fw7awcXXUzxn8ILKMGpbrj+Klro5knm5rTsuOjE3MwwqfT9jaRR8w5jzAR2AjbsKQ1JxMeRj9M1Clv756icoBaxgpu3Sn3YrBocPS56TwB9szmJbDM5zvuL1c8y++8UpFhEbyjWPoeNLEmzMyeeeFpNgpnz5Ha+SZHdMVb1yyGQ6clq3oK4xz9G8D3OZ8ZWPw==" NoCertificadoSAT="30001000000500003456" SelloSAT="HBJwXO8d+F+k0XyBov4WTGunAW1n/m3UAAfWjuEMgrU3PoVBOuB/1u6ndvvsn7u3mrRY4tC4KISpomKgU3xR6n8r1d1Z7OlFMH30uizMHv1Iyi8QRF+j+ZDb1jRXhOwen7y9f+4LdXhCcvyO9f1quUh3+xxDZBaX/GnRyNz7hnlU4yp6yo7HBxTFiZySNCASrnNj3bsMZhN25p+uJqB7DJL9j0bD+ufnKN1awdGUXKcgAiX5/K39ucz0KabJtofPCMjan6c91kTZXD8TgdUDLVdcPA8lfsr4Kd7Tg/5fYkWJLgMTXVOMoeQHmKEPiM2/cJoxcz4+ptJHMFt3yFVpRw==" /></cfdi:Complemento></cfdi:Comprobante>

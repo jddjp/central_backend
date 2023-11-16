@@ -93,7 +93,7 @@ module.exports = {
 
       const sendInvoice = await strapi
         .service("api::facturacion-sifei.facturacion-sifei")
-        .sendInvoice(getCFDI.xmlBase64, getPDF.pdfBase64, getPDF.uuid, 'davidhardys58@gmail.com');
+        .sendInvoice(getCFDI.xmlBase64, getPDF.pdfBase64, getPDF.uuid, body.email);
       ctx.body = {
         status: "OK"
       };

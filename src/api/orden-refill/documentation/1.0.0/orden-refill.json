@@ -3302,6 +3302,9 @@
                                                             }
                                                           }
                                                         },
+                                                        "PrecioUnitario": {
+                                                          "type": "string"
+                                                        },
                                                         "createdAt": {
                                                           "type": "string",
                                                           "format": "date-time"
@@ -3429,6 +3432,9 @@
                                     }
                                   }
                                 }
+                              },
+                              "PrecioUnitario": {
+                                "type": "string"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -7041,6 +7047,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "PrecioUnitario": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -7168,6 +7177,9 @@
                                   }
                                 }
                               }
+                            },
+                            "PrecioUnitario": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -7410,6 +7422,9 @@
                           }
                         ],
                         "example": "string or id"
+                      },
+                      "PrecioUnitario": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",
@@ -10754,6 +10769,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "PrecioUnitario": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -10881,6 +10899,9 @@
                                   }
                                 }
                               }
+                            },
+                            "PrecioUnitario": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -14402,6 +14423,9 @@
                                                           }
                                                         }
                                                       },
+                                                      "PrecioUnitario": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -14529,6 +14553,9 @@
                                   }
                                 }
                               }
+                            },
+                            "PrecioUnitario": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -14782,6 +14809,9 @@
                           }
                         ],
                         "example": "string or id"
+                      },
+                      "PrecioUnitario": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",

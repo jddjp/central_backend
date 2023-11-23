@@ -22,9 +22,11 @@
                               "descripcion": {
                                 "type": "string"
                               },
-                              "comision": {
-                                "type": "number",
-                                "format": "float"
+                              "c_FormaPago": {
+                                "type": "string"
+                              },
+                              "idTipoPago": {
+                                "type": "string"
                               },
                               "createdAt": {
                                 "type": "string",
@@ -604,9 +606,11 @@
                             "descripcion": {
                               "type": "string"
                             },
-                            "comision": {
-                              "type": "number",
-                              "format": "float"
+                            "c_FormaPago": {
+                              "type": "string"
+                            },
+                            "idTipoPago": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -1104,9 +1108,11 @@
                             "descripcion": {
                               "type": "string"
                             },
-                            "comision": {
-                              "type": "number",
-                              "format": "float"
+                            "c_FormaPago": {
+                              "type": "string"
+                            },
+                            "idTipoPago": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -1595,9 +1601,11 @@
                             "descripcion": {
                               "type": "string"
                             },
-                            "comision": {
-                              "type": "number",
-                              "format": "float"
+                            "c_FormaPago": {
+                              "type": "string"
+                            },
+                            "idTipoPago": {
+                              "type": "string"
                             },
                             "createdAt": {
                               "type": "string",
@@ -2077,9 +2085,11 @@
                       "descripcion": {
                         "type": "string"
                       },
-                      "comision": {
-                        "type": "number",
-                        "format": "float"
+                      "c_FormaPago": {
+                        "type": "string"
+                      },
+                      "idTipoPago": {
+                        "type": "string"
                       },
                       "createdAt": {
                         "type": "string",

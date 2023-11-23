@@ -4,7 +4,8 @@
   "info": {
     "singularName": "tipopago",
     "pluralName": "tipopagos",
-    "displayName": "Tipo pagos"
+    "displayName": "Tipo pagos",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -15,8 +16,11 @@
       "type": "string",
       "required": true
     },
-    "comision": {
-      "type": "decimal"
+    "c_FormaPago": {
+      "type": "string"
+    },
+    "idTipoPago": {
+      "type": "uid"
     }
   }
 }

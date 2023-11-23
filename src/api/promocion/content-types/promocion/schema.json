@@ -4,7 +4,8 @@
   "info": {
     "singularName": "promocion",
     "pluralName": "promociones",
-    "displayName": "Promociones"
+    "displayName": "Promociones",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -43,6 +44,13 @@
       "type": "relation",
       "relation": "oneToOne",
       "target": "api::articulo.articulo"
+    },
+    "foto": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false
     }
   }
 }

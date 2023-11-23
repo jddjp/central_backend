@@ -1,0 +1,27 @@
+{
+  "kind": "collectionType",
+  "collectionName": "rango_ruptura_precios",
+  "info": {
+    "singularName": "rango-ruptura-precio",
+    "pluralName": "rango-ruptura-precios",
+    "displayName": "Rango ruptura precio"
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "cantidad": {
+      "type": "string"
+    },
+    "precio": {
+      "type": "string"
+    },
+    "ruptura_precio": {
+      "type": "relation",
+      "relation": "manyToOne",
+      "target": "api::rupturaprecio.rupturaprecio",
+      "inversedBy": "rango_ruptura_precios"
+    }
+  }
+}

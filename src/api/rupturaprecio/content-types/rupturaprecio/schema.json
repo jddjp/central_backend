@@ -29,6 +29,12 @@
     },
     "rangos": {
       "type": "json"
+    },
+    "rango_ruptura_precios": {
+      "type": "relation",
+      "relation": "oneToMany",
+      "target": "api::rango-ruptura-precio.rango-ruptura-precio",
+      "mappedBy": "ruptura_precio"
     }
   }
 }

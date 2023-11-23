@@ -87,7 +87,7 @@ module.exports = {
           uso_cfdi: 'adas',
           xml: getCFDI.xmlBase64,
           pdf: getPDF.pdfBase64,
-          pedido: 300,
+          pedido: 339,
           cliente: 1
         });
 

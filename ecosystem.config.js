@@ -3,7 +3,7 @@ module.exports = {
     {
       name: 'central_backend',
       cwd: '/home/ubuntu/central_backend',
-      script: 'yarn',
+      script: 'npm',
       args: 'start',
       env: {
         NODE_ENV: 'production',

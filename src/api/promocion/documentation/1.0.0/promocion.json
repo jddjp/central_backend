@@ -2194,10 +2194,6 @@
                                                                                                   "type": "string",
                                                                                                   "format": "date-time"
                                                                                                 },
-                                                                                                "publishedAt": {
-                                                                                                  "type": "string",
-                                                                                                  "format": "date-time"
-                                                                                                },
                                                                                                 "createdBy": {
                                                                                                   "type": "object",
                                                                                                   "properties": {
@@ -2231,6 +2227,29 @@
                                                                                                       }
                                                                                                     }
                                                                                                   }
+                                                                                                },
+                                                                                                "localizations": {
+                                                                                                  "type": "object",
+                                                                                                  "properties": {
+                                                                                                    "data": {
+                                                                                                      "type": "array",
+                                                                                                      "items": {
+                                                                                                        "type": "object",
+                                                                                                        "properties": {
+                                                                                                          "id": {
+                                                                                                            "type": "string"
+                                                                                                          },
+                                                                                                          "attributes": {
+                                                                                                            "type": "object",
+                                                                                                            "properties": {}
+                                                                                                          }
+                                                                                                        }
+                                                                                                      }
+                                                                                                    }
+                                                                                                  }
+                                                                                                },
+                                                                                                "locale": {
+                                                                                                  "type": "string"
                                                                                                 }
                                                                                               }
                                                                                             }
@@ -6319,10 +6338,6 @@
                                                                                                 "type": "string",
                                                                                                 "format": "date-time"
                                                                                               },
-                                                                                              "publishedAt": {
-                                                                                                "type": "string",
-                                                                                                "format": "date-time"
-                                                                                              },
                                                                                               "createdBy": {
                                                                                                 "type": "object",
                                                                                                 "properties": {
@@ -6356,6 +6371,29 @@
                                                                                                     }
                                                                                                   }
                                                                                                 }
+                                                                                              },
+                                                                                              "localizations": {
+                                                                                                "type": "object",
+                                                                                                "properties": {
+                                                                                                  "data": {
+                                                                                                    "type": "array",
+                                                                                                    "items": {
+                                                                                                      "type": "object",
+                                                                                                      "properties": {
+                                                                                                        "id": {
+                                                                                                          "type": "string"
+                                                                                                        },
+                                                                                                        "attributes": {
+                                                                                                          "type": "object",
+                                                                                                          "properties": {}
+                                                                                                        }
+                                                                                                      }
+                                                                                                    }
+                                                                                                  }
+                                                                                                }
+                                                                                              },
+                                                                                              "locale": {
+                                                                                                "type": "string"
                                                                                               }
                                                                                             }
                                                                                           }
@@ -10379,10 +10417,6 @@
                                                                                                 "type": "string",
                                                                                                 "format": "date-time"
                                                                                               },
-                                                                                              "publishedAt": {
-                                                                                                "type": "string",
-                                                                                                "format": "date-time"
-                                                                                              },
                                                                                               "createdBy": {
                                                                                                 "type": "object",
                                                                                                 "properties": {
@@ -10416,6 +10450,29 @@
                                                                                                     }
                                                                                                   }
                                                                                                 }
+                                                                                              },
+                                                                                              "localizations": {
+                                                                                                "type": "object",
+                                                                                                "properties": {
+                                                                                                  "data": {
+                                                                                                    "type": "array",
+                                                                                                    "items": {
+                                                                                                      "type": "object",
+                                                                                                      "properties": {
+                                                                                                        "id": {
+                                                                                                          "type": "string"
+                                                                                                        },
+                                                                                                        "attributes": {
+                                                                                                          "type": "object",
+                                                                                                          "properties": {}
+                                                                                                        }
+                                                                                                      }
+                                                                                                    }
+                                                                                                  }
+                                                                                                }
+                                                                                              },
+                                                                                              "locale": {
+                                                                                                "type": "string"
                                                                                               }
                                                                                             }
                                                                                           }
@@ -14413,10 +14470,6 @@
                                                                                                 "type": "string",
                                                                                                 "format": "date-time"
                                                                                               },
-                                                                                              "publishedAt": {
-                                                                                                "type": "string",
-                                                                                                "format": "date-time"
-                                                                                              },
                                                                                               "createdBy": {
                                                                                                 "type": "object",
                                                                                                 "properties": {
@@ -14450,6 +14503,29 @@
                                                                                                     }
                                                                                                   }
                                                                                                 }
+                                                                                              },
+                                                                                              "localizations": {
+                                                                                                "type": "object",
+                                                                                                "properties": {
+                                                                                                  "data": {
+                                                                                                    "type": "array",
+                                                                                                    "items": {
+                                                                                                      "type": "object",
+                                                                                                      "properties": {
+                                                                                                        "id": {
+                                                                                                          "type": "string"
+                                                                                                        },
+                                                                                                        "attributes": {
+                                                                                                          "type": "object",
+                                                                                                          "properties": {}
+                                                                                                        }
+                                                                                                      }
+                                                                                                    }
+                                                                                                  }
+                                                                                                }
+                                                                                              },
+                                                                                              "locale": {
+                                                                                                "type": "string"
                                                                                               }
                                                                                             }
                                                                                           }

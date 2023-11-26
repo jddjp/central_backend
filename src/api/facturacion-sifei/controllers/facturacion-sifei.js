@@ -65,7 +65,6 @@ module.exports = {
         };
         return
       }
-      //console.log(getCFDI);
 
       const getPDF = await strapi
         .service("api::facturacion-sifei.facturacion-sifei")
@@ -80,15 +79,18 @@ module.exports = {
         return
       }
 
+      console.log("---------------------");
+      console.log(getPDF);
+      console.log("---------------------");
 
       const saveInvoice = await strapi
         .service("api::facturacion-sifei.facturacion-sifei")
         .saveInvoice({
-          uso_cfdi: 'adas',
+          uso_cfdi:  getPDF.uuid,
           xml: getCFDI.xmlBase64,
           pdf: getPDF.pdfBase64,
-          pedido: 339,
-          cliente: 1
+          pedido: body.id_pedido,
+          cliente: body.client_id,
         });
 
       const sendInvoice = await strapi

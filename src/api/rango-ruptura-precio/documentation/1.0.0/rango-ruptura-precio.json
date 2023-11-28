@@ -18283,6 +18283,9 @@
                                                                       }
                                                                     }
                                                                   },
+                                                                  "PrecioUnitario": {
+                                                                    "type": "string"
+                                                                  },
                                                                   "createdAt": {
                                                                     "type": "string",
                                                                     "format": "date-time"

@@ -79,9 +79,9 @@ module.exports = {
         return
       }
 
-      console.log("---------------------");
-      console.log(getPDF);
-      console.log("---------------------");
+      //console.log("---------------------");
+      //console.log(getPDF);
+     // console.log("---------------------");
 
       const saveInvoice = await strapi
         .service("api::facturacion-sifei.facturacion-sifei")
@@ -90,7 +90,7 @@ module.exports = {
           xml: getCFDI.xmlBase64,
           pdf: getPDF.pdfBase64,
           pedido: body.id_pedido,
-          cliente: body.client_id,
+          cliente: body.id_client,
         });
 
       const sendInvoice = await strapi
@@ -99,13 +99,14 @@ module.exports = {
       ctx.body = {
         status: "OK"
       };
-
-      //console.log(saveInvoice);
-
+      console.log("---------------------");
+      console.log(saveInvoice);
+      console.log("---------------------");
       ctx.body = {
         status: "OK",
         xmlBase64: getCFDI.xmlBase64,
-        pdfBase64: getPDF.pdfBase64
+        pdfBase64: getPDF.pdfBase64,
+        factura_id: saveInvoice.id
       };
     } catch (err) {
       console.log(err);

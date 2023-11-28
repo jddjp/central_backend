@@ -201,6 +201,7 @@ module.exports = {
         const invoice = await strapi.entityService.create('api::factura.factura', {
             data: data,
         });
+        return invoice
     },
     
 }

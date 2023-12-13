@@ -1815,6 +1815,18 @@
                                                                                 "regimen_fiscal_emisor": {
                                                                                   "type": "string"
                                                                                 },
+                                                                                "certificado_facturacion": {
+                                                                                  "type": "string"
+                                                                                },
+                                                                                "key_facturacion": {
+                                                                                  "type": "string"
+                                                                                },
+                                                                                "clave_facturacion": {
+                                                                                  "type": "string"
+                                                                                },
+                                                                                "password_sifei": {
+                                                                                  "type": "string"
+                                                                                },
                                                                                 "createdAt": {
                                                                                   "type": "string",
                                                                                   "format": "date-time"
@@ -5630,6 +5642,18 @@
                                                                               "regimen_fiscal_emisor": {
                                                                                 "type": "string"
                                                                               },
+                                                                              "certificado_facturacion": {
+                                                                                "type": "string"
+                                                                              },
+                                                                              "key_facturacion": {
+                                                                                "type": "string"
+                                                                              },
+                                                                              "clave_facturacion": {
+                                                                                "type": "string"
+                                                                              },
+                                                                              "password_sifei": {
+                                                                                "type": "string"
+                                                                              },
                                                                               "createdAt": {
                                                                                 "type": "string",
                                                                                 "format": "date-time"
@@ -9375,6 +9399,18 @@
                                                                               "regimen_fiscal_emisor": {
                                                                                 "type": "string"
                                                                               },
+                                                                              "certificado_facturacion": {
+                                                                                "type": "string"
+                                                                              },
+                                                                              "key_facturacion": {
+                                                                                "type": "string"
+                                                                              },
+                                                                              "clave_facturacion": {
+                                                                                "type": "string"
+                                                                              },
+                                                                              "password_sifei": {
+                                                                                "type": "string"
+                                                                              },
                                                                               "createdAt": {
                                                                                 "type": "string",
                                                                                 "format": "date-time"
@@ -13097,6 +13133,18 @@
                                                                                 "type": "string"
                                                                               },
                                                                               "regimen_fiscal_emisor": {
+                                                                                "type": "string"
+                                                                              },
+                                                                              "certificado_facturacion": {
+                                                                                "type": "string"
+                                                                              },
+                                                                              "key_facturacion": {
+                                                                                "type": "string"
+                                                                              },
+                                                                              "clave_facturacion": {
+                                                                                "type": "string"
+                                                                              },
+                                                                              "password_sifei": {
                                                                                 "type": "string"
                                                                               },
                                                                               "createdAt": {

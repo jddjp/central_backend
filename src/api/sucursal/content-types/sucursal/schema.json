@@ -4,7 +4,8 @@
   "info": {
     "singularName": "sucursal",
     "pluralName": "sucursales",
-    "displayName": "Sucursales"
+    "displayName": "Sucursales",
+    "description": ""
   },
   "options": {
     "draftAndPublish": false
@@ -34,6 +35,15 @@
       "type": "string"
     },
     "estado": {
+      "type": "string"
+    },
+    "rfc_emisor": {
+      "type": "string"
+    },
+    "nombre_fiscal_emisor": {
+      "type": "string"
+    },
+    "regimen_fiscal_emisor": {
       "type": "string"
     }
   }

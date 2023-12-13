@@ -1237,6 +1237,15 @@
                                                       "estado": {
                                                         "type": "string"
                                                       },
+                                                      "rfc_emisor": {
+                                                        "type": "string"
+                                                      },
+                                                      "nombre_fiscal_emisor": {
+                                                        "type": "string"
+                                                      },
+                                                      "regimen_fiscal_emisor": {
+                                                        "type": "string"
+                                                      },
                                                       "createdAt": {
                                                         "type": "string",
                                                         "format": "date-time"
@@ -5029,6 +5038,15 @@
                                                     "estado": {
                                                       "type": "string"
                                                     },
+                                                    "rfc_emisor": {
+                                                      "type": "string"
+                                                    },
+                                                    "nombre_fiscal_emisor": {
+                                                      "type": "string"
+                                                    },
+                                                    "regimen_fiscal_emisor": {
+                                                      "type": "string"
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -8740,6 +8758,15 @@
                                                     "estado": {
                                                       "type": "string"
                                                     },
+                                                    "rfc_emisor": {
+                                                      "type": "string"
+                                                    },
+                                                    "nombre_fiscal_emisor": {
+                                                      "type": "string"
+                                                    },
+                                                    "regimen_fiscal_emisor": {
+                                                      "type": "string"
+                                                    },
                                                     "createdAt": {
                                                       "type": "string",
                                                       "format": "date-time"
@@ -12439,6 +12466,15 @@
                                                       "type": "string"
                                                     },
                                                     "estado": {
+                                                      "type": "string"
+                                                    },
+                                                    "rfc_emisor": {
+                                                      "type": "string"
+                                                    },
+                                                    "nombre_fiscal_emisor": {
+                                                      "type": "string"
+                                                    },
+                                                    "regimen_fiscal_emisor": {
                                                       "type": "string"
                                                     },
                                                     "createdAt": {

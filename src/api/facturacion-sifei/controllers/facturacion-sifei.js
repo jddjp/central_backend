@@ -6,14 +6,19 @@
 
 module.exports = {
   async generarFacturaElec(ctx, next) {
+    const body = ctx.request.body;
+    const dataEmisor = await strapi
+        .service("api::facturacion-sifei.facturacion-sifei")
+        .getDataEmisor(body.id_sucursal);
+
+        
     const emisor = {
       emisor: {
-        "rfc": "H&E951128469",
-        "nombre": "HERRERIA & ELECTRICOS SA DE CV",
-        "regimen_fiscal": "601"
+        "rfc": dataEmisor.rfc_emisor,
+        "nombre": dataEmisor.nombre_fiscal_emisor,
+        "regimen_fiscal": dataEmisor.regimen_fiscal_emisor
       }
     }
-
 
     const configuracion = {
       configuracion:
@@ -34,10 +39,21 @@ module.exports = {
       Object.assign(body.comprobante, emisor);
       Object.assign(body, configuracion);
 
+      body.comprobante.lugar_expedicion = dataEmisor.codigo_postal;
+
       const getTokenSIFEI = await strapi
         .service("api::facturacion-sifei.facturacion-sifei")
         .getTokenSIFEI();
       console.log("Token obtenido....");
+
+      if (getTokenSIFEI.error != "") {
+        ctx.body = {
+          status: getTokenSIFEI.error,
+          xmlBase64: "",
+          pdfBase64: ""
+        };
+        return
+      }
 
       const getXML = await strapi
         .service("api::facturacion-sifei.facturacion-sifei")
@@ -99,9 +115,9 @@ module.exports = {
       ctx.body = {
         status: "OK"
       };
-      console.log("---------------------");
-      console.log(saveInvoice);
-      console.log("---------------------");
+      //console.log("---------------------");
+      //console.log(saveInvoice);
+      //console.log("---------------------");
       ctx.body = {
         status: "OK",
         xmlBase64: getCFDI.xmlBase64,

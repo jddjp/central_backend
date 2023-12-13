@@ -106,7 +106,7 @@ module.exports = {
     getXML: async (token, data) => {
         const config = strapi.config.get('admin.sifeiRest', 'defaultValueIfUndefined');
         let response = { error: "", xmlBase64: "", uuid: "" };
-        console.log(data);
+       // console.log(data);
         try {
             const callApi = await axios
                 .post(config.host + "/validador/utils/genera_xml", data,
@@ -151,7 +151,7 @@ module.exports = {
             response.pdfBase64 = callApi.data.data;
             response.uuid = callApi.data.uuid;
         } catch (error) {
-            console.log(error);
+            console.error(error);
             if (error.response) {
                 response.error = error.response.data;
             }
@@ -204,4 +204,8 @@ module.exports = {
         return invoice
     },
     
+    getDataEmisor: async (id_sucursal) => {
+        const data = await strapi.entityService.findOne('api::sucursal.sucursal',id_sucursal);
+        return data
+    },
 }

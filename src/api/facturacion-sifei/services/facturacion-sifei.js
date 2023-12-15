@@ -17,7 +17,7 @@ let HEADERS = {
 }
 
 module.exports = {
-    generarFacturaElec: async (cfdiBase64) => {
+    generarFacturaElec: async (cfdiBase64, RFC, PASS, ID_EQUIPO) => {
         const DIR = './src/api/facturacion-sifei/services/tmp';
         const response = {
             error: "",
@@ -28,9 +28,9 @@ module.exports = {
         try {
             //preparamos los parametros de timbrado
             var parametrosDeTimbrado = {
-                Usuario: config.user,   //usuario de sifei
-                Password: config.pass, //contraseña
-                IdEquipo: config.idEquipo, //id de equipo
+                Usuario: RFC,   //usuario de sifei
+                Password: PASS, //contraseña
+                IdEquipo: ID_EQUIPO, //id de equipo
                 archivoXMLZip: cfdiBase64, //archivo CFDI
                 Serie: "",
             };
@@ -83,11 +83,11 @@ module.exports = {
         return response;
     },
 
-    getTokenSIFEI: async () => {
+    getTokenSIFEI: async (RFC, PASS) => {
         const config = strapi.config.get('admin.sifeiRest', 'defaultValueIfUndefined');
         const data = JSON.stringify({
-            rfc: config.user,
-            password: config.pass,
+            rfc: RFC,
+            password: PASS,
         });
         let response = { error: "", token: "" };
 
@@ -126,7 +126,7 @@ module.exports = {
         return response
     },
 
-    generatePDF: async (token, xmlBase64) => {
+    generatePDF: async (pdfToken, xmlBase64) => {
 
         const config = strapi.config.get('admin.sifeiRest', 'defaultValueIfUndefined');
         let response = { error: "", pdfBase64: "" };
@@ -144,7 +144,7 @@ module.exports = {
                     {
                         headers: {
                             "Content-Type": "application/json",
-                            'Authorization': config.pdfToken
+                            'Authorization': pdfToken
                         }
                     });
             console.log(callApi.data);

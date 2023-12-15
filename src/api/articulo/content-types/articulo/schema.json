@@ -132,6 +132,15 @@
     },
     "clave_prod_serv": {
       "type": "string"
+    },
+    "id_equipo_sifei": {
+      "type": "text"
+    },
+    "password_soap_sifei": {
+      "type": "text"
+    },
+    "user_sifei": {
+      "type": "string"
     }
   }
 }

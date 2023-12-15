@@ -64,6 +64,18 @@
                               "password_sifei": {
                                 "type": "string"
                               },
+                              "token_sifei_pdf": {
+                                "type": "string"
+                              },
+                              "id_equipo_sifei": {
+                                "type": "string"
+                              },
+                              "password_soap_sifei": {
+                                "type": "string"
+                              },
+                              "user_sifei": {
+                                "type": "string"
+                              },
                               "createdAt": {
                                 "type": "string",
                                 "format": "date-time"
@@ -684,6 +696,18 @@
                             "password_sifei": {
                               "type": "string"
                             },
+                            "token_sifei_pdf": {
+                              "type": "string"
+                            },
+                            "id_equipo_sifei": {
+                              "type": "string"
+                            },
+                            "password_soap_sifei": {
+                              "type": "string"
+                            },
+                            "user_sifei": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -1222,6 +1246,18 @@
                             "password_sifei": {
                               "type": "string"
                             },
+                            "token_sifei_pdf": {
+                              "type": "string"
+                            },
+                            "id_equipo_sifei": {
+                              "type": "string"
+                            },
+                            "password_soap_sifei": {
+                              "type": "string"
+                            },
+                            "user_sifei": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -1751,6 +1787,18 @@
                             "password_sifei": {
                               "type": "string"
                             },
+                            "token_sifei_pdf": {
+                              "type": "string"
+                            },
+                            "id_equipo_sifei": {
+                              "type": "string"
+                            },
+                            "password_soap_sifei": {
+                              "type": "string"
+                            },
+                            "user_sifei": {
+                              "type": "string"
+                            },
                             "createdAt": {
                               "type": "string",
                               "format": "date-time"
@@ -2269,6 +2317,18 @@
                         "type": "string"
                       },
                       "password_sifei": {
+                        "type": "string"
+                      },
+                      "token_sifei_pdf": {
+                        "type": "string"
+                      },
+                      "id_equipo_sifei": {
+                        "type": "string"
+                      },
+                      "password_soap_sifei": {
+                        "type": "string"
+                      },
+                      "user_sifei": {
                         "type": "string"
                       },
                       "createdAt": {

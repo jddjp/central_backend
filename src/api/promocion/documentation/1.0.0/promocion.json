@@ -1783,6 +1783,18 @@
                                                                     "password_sifei": {
                                                                       "type": "string"
                                                                     },
+                                                                    "token_sifei_pdf": {
+                                                                      "type": "string"
+                                                                    },
+                                                                    "id_equipo_sifei": {
+                                                                      "type": "string"
+                                                                    },
+                                                                    "password_soap_sifei": {
+                                                                      "type": "string"
+                                                                    },
+                                                                    "user_sifei": {
+                                                                      "type": "string"
+                                                                    },
                                                                     "createdAt": {
                                                                       "type": "string",
                                                                       "format": "date-time"
@@ -3440,6 +3452,15 @@
                                             "type": "boolean"
                                           },
                                           "clave_prod_serv": {
+                                            "type": "string"
+                                          },
+                                          "id_equipo_sifei": {
+                                            "type": "string"
+                                          },
+                                          "password_soap_sifei": {
+                                            "type": "string"
+                                          },
+                                          "user_sifei": {
                                             "type": "string"
                                           },
                                           "createdAt": {
@@ -5948,6 +5969,18 @@
                                                                   "password_sifei": {
                                                                     "type": "string"
                                                                   },
+                                                                  "token_sifei_pdf": {
+                                                                    "type": "string"
+                                                                  },
+                                                                  "id_equipo_sifei": {
+                                                                    "type": "string"
+                                                                  },
+                                                                  "password_soap_sifei": {
+                                                                    "type": "string"
+                                                                  },
+                                                                  "user_sifei": {
+                                                                    "type": "string"
+                                                                  },
                                                                   "createdAt": {
                                                                     "type": "string",
                                                                     "format": "date-time"
@@ -7605,6 +7638,15 @@
                                           "type": "boolean"
                                         },
                                         "clave_prod_serv": {
+                                          "type": "string"
+                                        },
+                                        "id_equipo_sifei": {
+                                          "type": "string"
+                                        },
+                                        "password_soap_sifei": {
+                                          "type": "string"
+                                        },
+                                        "user_sifei": {
                                           "type": "string"
                                         },
                                         "createdAt": {
@@ -10048,6 +10090,18 @@
                                                                   "password_sifei": {
                                                                     "type": "string"
                                                                   },
+                                                                  "token_sifei_pdf": {
+                                                                    "type": "string"
+                                                                  },
+                                                                  "id_equipo_sifei": {
+                                                                    "type": "string"
+                                                                  },
+                                                                  "password_soap_sifei": {
+                                                                    "type": "string"
+                                                                  },
+                                                                  "user_sifei": {
+                                                                    "type": "string"
+                                                                  },
                                                                   "createdAt": {
                                                                     "type": "string",
                                                                     "format": "date-time"
@@ -11705,6 +11759,15 @@
                                           "type": "boolean"
                                         },
                                         "clave_prod_serv": {
+                                          "type": "string"
+                                        },
+                                        "id_equipo_sifei": {
+                                          "type": "string"
+                                        },
+                                        "password_soap_sifei": {
+                                          "type": "string"
+                                        },
+                                        "user_sifei": {
                                           "type": "string"
                                         },
                                         "createdAt": {
@@ -14122,6 +14185,18 @@
                                                                   "password_sifei": {
                                                                     "type": "string"
                                                                   },
+                                                                  "token_sifei_pdf": {
+                                                                    "type": "string"
+                                                                  },
+                                                                  "id_equipo_sifei": {
+                                                                    "type": "string"
+                                                                  },
+                                                                  "password_soap_sifei": {
+                                                                    "type": "string"
+                                                                  },
+                                                                  "user_sifei": {
+                                                                    "type": "string"
+                                                                  },
                                                                   "createdAt": {
                                                                     "type": "string",
                                                                     "format": "date-time"
@@ -15779,6 +15854,15 @@
                                           "type": "boolean"
                                         },
                                         "clave_prod_serv": {
+                                          "type": "string"
+                                        },
+                                        "id_equipo_sifei": {
+                                          "type": "string"
+                                        },
+                                        "password_soap_sifei": {
+                                          "type": "string"
+                                        },
+                                        "user_sifei": {
                                           "type": "string"
                                         },
                                         "createdAt": {
